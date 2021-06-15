@@ -2,7 +2,7 @@ module.exports = {
   title: 'Ampify',
   tagline: 'Identical AMP is now Possible',
   url: 'https://ampify-io.github.io',
-  baseUrl: '/duda-docs/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'ampify-io', // Usually your GitHub org/user name.
   projectName: 'duda-docs', // Usually your repo name.
