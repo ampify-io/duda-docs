@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Ampify',
   tagline: 'Identical AMP is now Possible',
-  url: 'https://ampify-io.github.io',
+  url: 'https://duda-docs.netlify.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'ampify-io', // Usually your GitHub org/user name.

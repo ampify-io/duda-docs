@@ -1,5 +1,5 @@
 ---
-id: Page_speed_test
+id: page_speed_test
 title: Page Speed Test
 sidebar_label: Page Speed Test
 ---

@@ -1,5 +1,5 @@
 ---
-id: QnA
+id: qna
 title: Troubleshooting
 sidebar_label: Troubleshooting
 ---

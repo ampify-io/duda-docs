@@ -1,5 +1,5 @@
 ---
-id: About_AMP
+id: about_amp
 title: About AMP
 sidebar_label: About AMP
 ---

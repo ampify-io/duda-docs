@@ -1,5 +1,5 @@
 ---
-id: Widgets
+id: widgets
 title: Widgets
 sidebar_label: Widgets
 ---

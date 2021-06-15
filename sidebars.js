@@ -1,4 +1,4 @@
 module.exports = {
-  someSidebar: ['About_AMP','Page_speed_test','Widgets', 'customized_sites', 'Analytics',   'QnA', 'General' ]
+  someSidebar: ['about_amp','page_speed_test','widgets', 'customized_sites', 'analytics', 'qna', 'general' ]
   
 };
