@@ -23,6 +23,7 @@ module.exports = {
       //... other Algolia params
     },*/
     navbar: {
+      hideOnScroll: true,
       title: 'Ampify',
       logo: {
         alt: 'Ampify Logo',

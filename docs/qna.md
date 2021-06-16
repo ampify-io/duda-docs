@@ -20,7 +20,7 @@ If a solution we provide doesn't work, reach out to us at help@ampify.io
     * Republish your site.
 
 * **I opened an AMP page directly from the 'amphtml' tag, and I reached a 'Service Unavailable' page**
-* This is normal. It means that the AMP page is being updated. End users will never reach this page: the client of the 'amphtml' tag is Google Bot. When it gets this message, it knows to return in a few minutes and get updated page to store in the AMP cache.
+    * This is normal. It means that the AMP page is being updated. End users will never reach this page: the client of the 'amphtml' tag is Google Bot. When it gets this message, it knows to return in a few minutes and get updated page to store in the AMP cache.
 
 ### Known issues
 * Unsupported templates:
