@@ -79,6 +79,7 @@ h1 {
 
 :root {
   --doc-sidebar-width: 200px !important;
+  --ifm-background-color: white;
 }
 
 /* .row .col.col--3 {
