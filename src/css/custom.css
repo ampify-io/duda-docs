@@ -69,6 +69,10 @@ html {
   position: relative;
 }
 
+.bigfont {
+  font-size: 1.1em;
+}
+
 h1 {
   font-size: 2.5rem !important;
 }

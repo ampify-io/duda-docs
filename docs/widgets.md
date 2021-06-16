@@ -5,8 +5,8 @@ sidebar_label: Widgets
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
-<h4>Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is Ampified. 
-The following section details the expected behavior of each of the elements. In case there is a difference compared to the HTML version - it will be documented here.</h4>
+<p className="bigfont">Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is Ampified. 
+The following section details the expected behavior of each of the elements. In case there is a difference compared to the HTML version - it will be documented here.</p>
 
 ## Editor Widgets
 ### Accordion 
