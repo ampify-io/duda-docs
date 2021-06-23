@@ -50,10 +50,32 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ### Contact Form
 <img className="higher" width='50px' src={useBaseUrl('Contact_Form.png')} />
 
-* reCaptcha is not supported in AMP. To enable a specific form widget work in the AMP version, turn off the reCaptcha option in the edit window of the original form, and re-publish the site.
-* Tracking Code: Javascripts are not allowed in AMP, so any tracking code will not persist to the AMP version. Tracking is enabled in AMP via the Google-Tag-Manager, Google Analytics, and your Editor’s Analytics Dashboard.
-* File Upload: at this stage, file upload is not supported in AMP.
-* Time and Date pickers: time and date pickers have a predefined design which cannot be edited:
+* **reCaptcha**:
+  * If reCaptcha verification is turned on for a specific form, the AMP version of it will appear in the AMP page.
+      <img  className="shadow" width='200px' src={useBaseUrl('recaptcha.png')} />
+      
+  * The reCaptcha badge is positioned at the bottom of the form, above the 'Submit' button. It can't be edited.
+  * For a form-submit to be successful, the visitor is requested to check the ckeckbox. It is possible to send a form without checking the reCaptcha checkbox, however an error will show up.
+  * AMP recaptcha may take a few seconds to load after the site is live.
+  * AMP forms with reCaptcha verification require double tap on the 'submit' button.
+  * It is possible to remove the reCaptcha verification in AMP by disabling it in the editor:
+    * In the form settings, uncheck the 'Add reCAPTCHA validation' button. 
+
+        <img className="shadow" width='500px' src={useBaseUrl('recaptcha_disable.png')} />
+
+    * If the button is not available, it is possible to edit the code of the widget:
+        in the settings menu, click 'Edit HTML/CSS'
+
+        <img className="shadow" width='500px' src={useBaseUrl('recaptcha_settings.png')} />
+
+        in the new window, set the captcha to 'false, click 'update', and republish the site.
+
+        <img className="shadow" width='550px' src={useBaseUrl('recaptchaCSS.png')} />
+
+    
+* **Tracking Code**: Javascripts are not allowed in AMP, so any tracking code will not persist to the AMP version. Tracking is enabled in AMP via the Google-Tag-Manager, Google Analytics, and your Editor’s Analytics Dashboard.
+* **File Upload**: at this stage, file upload is not supported in AMP.
+* **Time and Date pickers**: time and date pickers have a predefined design which cannot be edited:
   * Time Picker:
     * Width: 40% of HTML's time picker width, minimum of 25% of screen width.
     * A click on the clock icon opens the time picker.
@@ -61,7 +83,7 @@ Accordion tabs open in a slightly smoother manner compared to the source.
     * 24/12 hours format is dynamically determined per the visitor’s operating system preferences.
   * Date Picker:
     * Closing the date picker after selection is done via the ‘x’ button.
-* Required Fields:
+* **Required Fields**:
   * When a required field isn’t filled upon send, it will get a red border to indicate that it is required for the form to be submitted.
   * Checkboxes and Radio selectors display a red text indicating the required field, and not a red-border.
 ### Countdown

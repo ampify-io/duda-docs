@@ -7,21 +7,23 @@ module.exports = {
   organizationName: 'ampify-io', // Usually your GitHub org/user name.
   projectName: 'duda-docs', // Usually your repo name.
   themeConfig: {
-    /*algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+    colorMode: {
+      disableSwitch: true},
+    algolia: {
+      apiKey: 'fb03546ab3209f15a48915837f3cc081',
+      indexName: 'ampify',
 
       // Optional: see doc section below
       contextualSearch: true,
 
       // Optional: see doc section below
-      appId: 'YOUR_APP_ID',
+      // appId: 'YOUR_APP_ID',
 
       // Optional: Algolia search parameters
       searchParameters: {},
 
       //... other Algolia params
-    },*/
+    },
     navbar: {
       hideOnScroll: true,
       title: 'Ampify',
