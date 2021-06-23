@@ -1,7 +1,7 @@
 ---
 id: customized_sites
 title: Customized sites & Apps
-sidebar_label: Customized Sites & Apps
+sidebar_label: Customized Sites & Extensions
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
@@ -21,7 +21,7 @@ AMP doesn't support Java Scripts in the same way HTML does. When scripts are man
 ### Custom HTML Widget
 <img className="" width='50px' src={useBaseUrl('customhtmlwidget.png')} />
 
-Similar to manual cusomization of specific widgets or the entire site, Custom HTML widget contains code which was manually added to the page. The same restrictions apply to that code as described in the previous sections. Unlike other types of customization, when a Custom HTML widget is used in a page - Ampify requires a speciifc review and approval of the widget in order to enable the approval of the page.
+Similar to manual cusomization of specific widgets or the entire site, Custom HTML widget contains code which was manually added to the page. The same restrictions apply to that code as described in the previous sections. Unlike other types of customization, when a Custom HTML widget is used in a page - Ampify requires a specifc review and approval of the widget in order to enable the publish of the AMP page.
 
 ### 3rd Party Apps
 3rd party apps referes to any external tool which is implemented in the site, and is not an Editor widget or an app-store app. The same restrictions apply to that code as described in the previous sections. Many external tools already have AMP specific support, which is usually associated with a different tag to be used in the site. If the HTML version of the widget doesn't work in the Ampified page, check with your provider for their support in AMP.

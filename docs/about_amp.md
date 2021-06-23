@@ -13,8 +13,8 @@ Accelerated Mobile Pages (AMP) is a lightweight version of your site, designed t
 <img  width='300px' src={useBaseUrl('AMPvisual.png')} />
 
 ## How AMP works
-Once a page is Ampified, an AMP version of the page exists alongside the HTML version. Whenever Google indexes the HTML page, Google checks whether an AMP version exists for that page. This is done using a special tag which is placed in the page'a code when it is Ampified. 
-Google then validates that the page meets all the restrictions which every AMP page must abide by in order to be valid. Only valid AMP pages enjoy from the benefits of page pre-loading, Google Cache acceleration, and the 'accelerated-page' badge.
+Once a page is Ampified, an AMP version of the page exists alongside the HTML version. Whenever Google indexes the HTML page, Google checks whether an AMP version exists for that page. This is done using a special tag which is placed in the page's code when it is being ampified. 
+Google then validates that the page meets all the restrictions every AMP page must abide by in order to be valid. Only valid AMP pages enjoy the benefits of page pre-loading, Google Cache acceleration, and the 'accelerated-page' badge.
 
 **<a href="https://amp.dev/about/how-amp-works/" target="_blank">Learn more about AMP from Google</a>**
 
@@ -25,9 +25,9 @@ Google then validates that the page meets all the restrictions which every AMP p
 4. Google makes sure that the AMP page is valid, and if it is - it stores it optimizes it and stores it in the AMP cache.
 5. From that moment on, whenever the page is showing up in the Google search results in mobile, Google will serve the Ampified version, with all its acceleration benefits.
 
-## Updating an Ampified page
-* Whenever Google indexes a webpage, Ampify updates the Ampified version and serves it to Google, which updates it in the AMP cache. 
-* Manual updating of the Ampified page from within the dashboard is possible, however it can take up to several days to Google to also pull that version to its cache. This can cause a delay in the time it takes for Ampified pages to update. The actual delay depends on multiple factors, but the rule-of-thumb is that the more visits a page has - the more frequently it's updated.
+## Updating an ampified page
+* Whenever Google indexes a webpage, Ampify updates the ampified version and serves it to Google, which updates it in the AMP cache. This is how your AMP pages continue to be up to date.
+* Manual updating of the ampified page from within the dashboard is possible, however it **can take up to several days for Google to also pull that version to its cache**. This can cause a delay in the time it takes for the publiched AMP pages to update. The actual delay depends on multiple factors, but the rule-of-thumb is that the more visits a page has - the more frequently it's updated.
 
 One way to expedite this process is to click the re-index button in the site's search console.
 
