@@ -14,7 +14,7 @@ module.exports = {
       indexName: 'ampify',
 
       // Optional: see doc section below
-      contextualSearch: true,
+      contextualSearch: false,
 
       // Optional: see doc section below
       // appId: 'YOUR_APP_ID',
