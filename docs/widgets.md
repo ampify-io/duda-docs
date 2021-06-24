@@ -57,8 +57,12 @@ Accordion tabs open in a slightly smoother manner compared to the source.
   * The reCaptcha badge is positioned at the bottom of the form, above the 'Submit' button. It can't be edited.
   * For a form-submit to be successful, the visitor is requested to check the ckeckbox. It is possible to send a form without checking the reCaptcha checkbox, however an error will show up.
   * AMP recaptcha may take a few seconds to load after the site is live.
-  * AMP forms with reCaptcha verification require double tap on the 'submit' button.
-  * It is possible to remove the reCaptcha verification in AMP by disabling it in the editor:
+  * AMP forms with reCaptcha verification require double tap on the 'submit' button. After the first tap, an icon appears on the Sumbit button, indicating the requirement for the 2nd tap. The visitor will receive the form submitted notification. 
+
+      <img  className="" width='60px' src={useBaseUrl('clickagain.png')} />
+
+
+  * **It is possible to remove the reCaptcha verification** in AMP by disabling it in the editor:
     * In the form settings, uncheck the 'Add reCAPTCHA validation' button. 
 
         <img className="shadow" width='500px' src={useBaseUrl('recaptcha_disable.png')} />
