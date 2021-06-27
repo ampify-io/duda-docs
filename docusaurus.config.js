@@ -31,6 +31,7 @@ module.exports = {
       logo: {
         alt: 'Ampify Logo',
         src: 'img/logo.svg',
+        href: '/docs/About_AMP'
       },
       items: [
         {
