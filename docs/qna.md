@@ -18,6 +18,7 @@ AMP pages have behaviors which differ from the HTML version, and are expected:
     * Barber Shop
     * Digital Agency
     * CREATIVE AGENCY (AMP created but is invalid. Soon to be solved.)
+    * PHOTOGRAPHER PORTFOLIO (AMP created not accurately. will be solved soon)
 
 ### Troubleshooting:
 If a solution we provide doesn't work, reach out to us at help@ampify.io
@@ -52,6 +53,8 @@ If a solution we provide doesn't work, reach out to us at help@ampify.io
 
 * **I published a new blog post, but I can't see it in the dashboard**
     * Ampify requires a republish of the site in order to identify new blog posts. Click the republish button and you'll be able to see the page. 
+* **I see blog posts in my Ampify dashboard, but they display a 404 notice**
+    * There are situations in which blog posts exist, without the blog itself. This usually happens when a site was created from a template that had ready-to-use blog posts. Unless you will create a blog for the site, or hit 'republish' on the existing blog posts, these will remain 'shadow pages', which Ampify identifies and ampifies. Once a blog will be activated for the site, its posts will be ampified correctly. 
 
 
 ### Report a bug
