@@ -81,3 +81,15 @@ h1 {
   --doc-sidebar-width: 200px !important;
   --ifm-background-color: white !important;
 }
+
+.navbar__toggle {
+  display: none;
+}
+
+.button.button--secondary.button--sm.menu__button {
+  background-color: #25c2a0;
+}
+
+.button.button--secondary.button--sm.menu__button:hover {
+  background-color: #fff;
+}

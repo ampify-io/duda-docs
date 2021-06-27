@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'ampify-io', // Usually your GitHub org/user name.
   projectName: 'duda-docs', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
     colorMode: {
       disableSwitch: true},
     algolia: {

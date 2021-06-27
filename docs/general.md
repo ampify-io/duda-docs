@@ -10,8 +10,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### Hover Effects
 * As hover can only take place in desktop, and AMP is intended for mobile devices, all hover effects are disabled.
 ### Multi-Languages
-* Whenever a page is selected to be Ampified, all its language versions get Ampified as well. 
-* Multiple language versions of a page are all counted as one for the purpuse of your Ampify plan page limit. For example, a site that has 5 language versions and is in the Ampify Free plan can Ampify one of its pages. Each one of the 5 different language versions of that single page will also be Ampified.
+* Whenever a page is selected to be ampified, all its language versions get ampified as well. 
+* Multiple language versions of a page are all counted as one for the purpuse of your ampify plan page limit. For example, a site that has 5 language versions and is in the Ampify Basic plan can ampify one of its pages. Each one of the 5 different language versions of that single page will also be ampified.
 * For languages which are not the site's default language, access to their AMP version is not possible via the application. The AMP version can be accessed from the site itself, by adding '?amp=true' to the end of the page URL.
 * Languages variations - variations of the same language are considered as a single language. E.g. *English US* and *English UK* are both treated as English, and their AMP version will be the same version.
 ### Personalization

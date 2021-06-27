@@ -17,6 +17,7 @@ AMP pages have behaviors which differ from the HTML version, and are expected:
 * Unsupported templates:
     * Barber Shop
     * Digital Agency
+    * CREATIVE AGENCY (AMP created but is invalid. Soon to be solved.)
 
 ### Troubleshooting:
 If a solution we provide doesn't work, reach out to us at help@ampify.io
@@ -27,6 +28,19 @@ If a solution we provide doesn't work, reach out to us at help@ampify.io
 * **Some or all of the blog posts pages are not listed in the dashboard's page list**
     * Republish your site.
 
+* **I created an AMP page, but it doesn't behave/look like the HTML version**
+
+    The first thing to do is to update the AMP page. If the problem persists, republish the site, and then update the AMP page again. If the  
+    
+    If the problem continu to persist, follow these steps, starting with identifing the issue:
+    1. **A sepcific element doesn't behave as expected** (e.g. menu doesn't open):
+        * Was this element's HTML/CSS directly edited?
+            * Ampify can't guarantee the accurate Ampification of elements whose source code was tempered with. Please send us information about the issue: screenshots, URL for inspection, and number of sites affected to help@ampify.io.
+        * Is the element a custom widget built by your agency?
+            * Read more about [custom widget](/docs/customized_sites#custom-widgets)
+    2. **Multiple elements don't look/behave as expected** (e.g. size of elements on the page is wrong, elements don't show up, elements' order is wrong, elements don't respond to user interactions)
+        * Please reach out to us with a URL of the page for insepction + information about any customizations made to the site's CSS/HTML + other pages of the same site in which this problem takes place. 
+
 * **Product or Post Search lead to a 404 page**
     * Product and Post search widget only work on sites with SSL, meaning that the site can be reached via http**s**://www.yousite.com. Your sites should have SSL by default. If it does not, enable it in the site settings (it can take up to 24 hours to turn active).
 
@@ -35,6 +49,9 @@ If a solution we provide doesn't work, reach out to us at help@ampify.io
 
 * **I opened an AMP page directly from the 'amphtml' tag, and I reached a 'Service Unavailable' page**
     * This is normal. It means that the AMP page is being updated. End users will never reach this page: the client of the 'amphtml' tag is Google Bot. When it gets this message, it knows to return in a few minutes and get updated page to store in the AMP cache.
+
+* **I published a new blog post, but I can't see it in the dashboard**
+    * Ampify requires a republish of the site in order to identify new blog posts. Click the republish button and you'll be able to see the page. 
 
 
 ### Report a bug
