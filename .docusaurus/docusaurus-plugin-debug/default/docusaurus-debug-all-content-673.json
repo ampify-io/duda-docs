@@ -1,0 +1,273 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\omerr\\Desktop\\duda-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\omerr\\Desktop\\duda-docs\\docs",
+          "contentPathLocalized": "C:\\Users\\omerr\\Desktop\\duda-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "mainDocId": "about_amp",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "type": "doc",
+                "id": "about_amp"
+              },
+              {
+                "type": "doc",
+                "id": "page_speed_test"
+              },
+              {
+                "type": "doc",
+                "id": "widgets"
+              },
+              {
+                "type": "doc",
+                "id": "customized_sites"
+              },
+              {
+                "type": "doc",
+                "id": "analytics"
+              },
+              {
+                "type": "doc",
+                "id": "qna"
+              },
+              {
+                "type": "doc",
+                "id": "general"
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/about_amp": "someSidebar",
+            "/docs/analytics": "someSidebar",
+            "/docs/customized_sites": "someSidebar",
+            "/docs/general": "someSidebar",
+            "/docs/page_speed_test": "someSidebar",
+            "/docs/qna": "someSidebar",
+            "/docs/widgets": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "about_amp",
+              "id": "about_amp",
+              "isDocsHomePage": false,
+              "title": "About AMP",
+              "description": "What is AMP",
+              "source": "@site/docs/about_amp.md",
+              "sourceDirName": ".",
+              "slug": "/about_amp",
+              "permalink": "/docs/about_amp",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/about_amp.md",
+              "version": "current",
+              "sidebar_label": "About AMP",
+              "frontMatter": {
+                "id": "about_amp",
+                "title": "About AMP",
+                "sidebar_label": "About AMP"
+              },
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Page Speed Test",
+                "permalink": "/docs/page_speed_test"
+              }
+            },
+            {
+              "unversionedId": "analytics",
+              "id": "analytics",
+              "isDocsHomePage": false,
+              "title": "Analytics",
+              "description": "Built-in Analytics",
+              "source": "@site/docs/analytics.md",
+              "sourceDirName": ".",
+              "slug": "/analytics",
+              "permalink": "/docs/analytics",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/analytics.md",
+              "version": "current",
+              "sidebar_label": "Analytics",
+              "frontMatter": {
+                "id": "analytics",
+                "title": "Analytics",
+                "sidebar_label": "Analytics"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Customized sites & Apps",
+                "permalink": "/docs/customized_sites"
+              },
+              "next": {
+                "title": "Troubleshooting",
+                "permalink": "/docs/qna"
+              }
+            },
+            {
+              "unversionedId": "customized_sites",
+              "id": "customized_sites",
+              "isDocsHomePage": false,
+              "title": "Customized sites & Apps",
+              "description": "Ampify was set up to support the editor widgets and their respective range of in-editor custimizations.",
+              "source": "@site/docs/customized_sites.md",
+              "sourceDirName": ".",
+              "slug": "/customized_sites",
+              "permalink": "/docs/customized_sites",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/customized_sites.md",
+              "version": "current",
+              "sidebar_label": "Customized Sites & Extensions",
+              "frontMatter": {
+                "id": "customized_sites",
+                "title": "Customized sites & Apps",
+                "sidebar_label": "Customized Sites & Extensions"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Widgets",
+                "permalink": "/docs/widgets"
+              },
+              "next": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics"
+              }
+            },
+            {
+              "unversionedId": "general",
+              "id": "general",
+              "isDocsHomePage": false,
+              "title": "General",
+              "description": "Animations",
+              "source": "@site/docs/general.md",
+              "sourceDirName": ".",
+              "slug": "/general",
+              "permalink": "/docs/general",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/general.md",
+              "version": "current",
+              "sidebar_label": "General",
+              "frontMatter": {
+                "id": "general",
+                "title": "General",
+                "sidebar_label": "General"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Troubleshooting",
+                "permalink": "/docs/qna"
+              }
+            },
+            {
+              "unversionedId": "page_speed_test",
+              "id": "page_speed_test",
+              "isDocsHomePage": false,
+              "title": "Page Speed Test",
+              "description": "Speed testing AMP pages",
+              "source": "@site/docs/page_speed_test.md",
+              "sourceDirName": ".",
+              "slug": "/page_speed_test",
+              "permalink": "/docs/page_speed_test",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/page_speed_test.md",
+              "version": "current",
+              "sidebar_label": "Page Speed Test",
+              "frontMatter": {
+                "id": "page_speed_test",
+                "title": "Page Speed Test",
+                "sidebar_label": "Page Speed Test"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "About AMP",
+                "permalink": "/docs/about_amp"
+              },
+              "next": {
+                "title": "Widgets",
+                "permalink": "/docs/widgets"
+              }
+            },
+            {
+              "unversionedId": "qna",
+              "id": "qna",
+              "isDocsHomePage": false,
+              "title": "Troubleshooting",
+              "description": "Before you troubleshoot",
+              "source": "@site/docs/qna.md",
+              "sourceDirName": ".",
+              "slug": "/qna",
+              "permalink": "/docs/qna",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/qna.md",
+              "version": "current",
+              "sidebar_label": "Troubleshooting",
+              "frontMatter": {
+                "id": "qna",
+                "title": "Troubleshooting",
+                "sidebar_label": "Troubleshooting"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics"
+              },
+              "next": {
+                "title": "General",
+                "permalink": "/docs/general"
+              }
+            },
+            {
+              "unversionedId": "widgets",
+              "id": "widgets",
+              "isDocsHomePage": false,
+              "title": "Widgets",
+              "description": "Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is Ampified.",
+              "source": "@site/docs/widgets.md",
+              "sourceDirName": ".",
+              "slug": "/widgets",
+              "permalink": "/docs/widgets",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/widgets.md",
+              "version": "current",
+              "sidebar_label": "Widgets",
+              "frontMatter": {
+                "id": "widgets",
+                "title": "Widgets",
+                "sidebar_label": "Widgets"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Page Speed Test",
+                "permalink": "/docs/page_speed_test"
+              },
+              "next": {
+                "title": "Customized sites & Apps",
+                "permalink": "/docs/customized_sites"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": null
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-theme-search-algolia": {
+    "default": null
+  }
+}

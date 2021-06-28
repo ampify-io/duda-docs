@@ -1,0 +1,28 @@
+{
+  "unversionedId": "qna",
+  "id": "qna",
+  "isDocsHomePage": false,
+  "title": "Troubleshooting",
+  "description": "Before you troubleshoot",
+  "source": "@site/docs/qna.md",
+  "sourceDirName": ".",
+  "slug": "/qna",
+  "permalink": "/docs/qna",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/qna.md",
+  "version": "current",
+  "sidebar_label": "Troubleshooting",
+  "frontMatter": {
+    "id": "qna",
+    "title": "Troubleshooting",
+    "sidebar_label": "Troubleshooting"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Analytics",
+    "permalink": "/docs/analytics"
+  },
+  "next": {
+    "title": "General",
+    "permalink": "/docs/general"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "widgets",
+  "id": "widgets",
+  "isDocsHomePage": false,
+  "title": "Widgets",
+  "description": "Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is Ampified.",
+  "source": "@site/docs/widgets.md",
+  "sourceDirName": ".",
+  "slug": "/widgets",
+  "permalink": "/docs/widgets",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/widgets.md",
+  "version": "current",
+  "sidebar_label": "Widgets",
+  "frontMatter": {
+    "id": "widgets",
+    "title": "Widgets",
+    "sidebar_label": "Widgets"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Page Speed Test",
+    "permalink": "/docs/page_speed_test"
+  },
+  "next": {
+    "title": "Customized sites & Apps",
+    "permalink": "/docs/customized_sites"
+  }
+}

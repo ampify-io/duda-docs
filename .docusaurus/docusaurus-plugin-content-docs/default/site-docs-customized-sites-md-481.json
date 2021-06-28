@@ -1,0 +1,28 @@
+{
+  "unversionedId": "customized_sites",
+  "id": "customized_sites",
+  "isDocsHomePage": false,
+  "title": "Customized sites & Apps",
+  "description": "Ampify was set up to support the editor widgets and their respective range of in-editor custimizations.",
+  "source": "@site/docs/customized_sites.md",
+  "sourceDirName": ".",
+  "slug": "/customized_sites",
+  "permalink": "/docs/customized_sites",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/customized_sites.md",
+  "version": "current",
+  "sidebar_label": "Customized Sites & Extensions",
+  "frontMatter": {
+    "id": "customized_sites",
+    "title": "Customized sites & Apps",
+    "sidebar_label": "Customized Sites & Extensions"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Widgets",
+    "permalink": "/docs/widgets"
+  },
+  "next": {
+    "title": "Analytics",
+    "permalink": "/docs/analytics"
+  }
+}

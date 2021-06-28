@@ -1,0 +1,24 @@
+{
+  "unversionedId": "general",
+  "id": "general",
+  "isDocsHomePage": false,
+  "title": "General",
+  "description": "Animations",
+  "source": "@site/docs/general.md",
+  "sourceDirName": ".",
+  "slug": "/general",
+  "permalink": "/docs/general",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/general.md",
+  "version": "current",
+  "sidebar_label": "General",
+  "frontMatter": {
+    "id": "general",
+    "title": "General",
+    "sidebar_label": "General"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/qna"
+  }
+}

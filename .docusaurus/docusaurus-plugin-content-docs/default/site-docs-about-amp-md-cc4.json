@@ -1,0 +1,24 @@
+{
+  "unversionedId": "about_amp",
+  "id": "about_amp",
+  "isDocsHomePage": false,
+  "title": "About AMP",
+  "description": "What is AMP",
+  "source": "@site/docs/about_amp.md",
+  "sourceDirName": ".",
+  "slug": "/about_amp",
+  "permalink": "/docs/about_amp",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/about_amp.md",
+  "version": "current",
+  "sidebar_label": "About AMP",
+  "frontMatter": {
+    "id": "about_amp",
+    "title": "About AMP",
+    "sidebar_label": "About AMP"
+  },
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Page Speed Test",
+    "permalink": "/docs/page_speed_test"
+  }
+}

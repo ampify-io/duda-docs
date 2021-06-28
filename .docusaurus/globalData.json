@@ -1,0 +1,53 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "about_amp",
+          "docs": [
+            {
+              "id": "about_amp",
+              "path": "/docs/about_amp",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "analytics",
+              "path": "/docs/analytics",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "customized_sites",
+              "path": "/docs/customized_sites",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "general",
+              "path": "/docs/general",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "page_speed_test",
+              "path": "/docs/page_speed_test",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "qna",
+              "path": "/docs/qna",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "widgets",
+              "path": "/docs/widgets",
+              "sidebar": "someSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
