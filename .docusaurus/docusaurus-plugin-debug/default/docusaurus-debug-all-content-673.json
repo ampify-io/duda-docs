@@ -258,6 +258,11 @@
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/test",
+        "source": "@site/src/pages/test.js"
       }
     ]
   },

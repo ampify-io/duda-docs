@@ -39,24 +39,24 @@ module.exports = {
           position: 'right',
         }],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/amp-html',
-            },
-            {
-              "label": "Slack",
-              "href": "https://join.slack.com/t/ampify-dev-plat/shared_invite/zt-dq2lvsyq-XXyQfTIKjk_rnoMb1gHnsA",
-            },
-          ],
-        },
-      ],
-    },
+    // footer: {
+    //   style: 'dark',
+    //   links: [
+    //     {
+    //       title: 'Community',
+    //       items: [
+    //         {
+    //           label: 'Stack Overflow',
+    //           href: 'https://stackoverflow.com/questions/tagged/amp-html',
+    //         },
+    //         {
+    //           "label": "Slack",
+    //           "href": "https://join.slack.com/t/ampify-dev-plat/shared_invite/zt-dq2lvsyq-XXyQfTIKjk_rnoMb1gHnsA",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
   },
   presets: [
     [

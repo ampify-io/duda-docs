@@ -32,7 +32,7 @@ The result is that a page speed score of 67 can actually be, with real life data
 * More about the data Google displays in the Speed Test: <a href="https://developers.google.com/speed/docs/insights/v5/about#faq" target="_blank">developers.google.com/speed/docs/insights/v5/about#faq</a>
 * More about the issues of measuring AMP page speed: <a href="https://blog.amp.dev/2018/01/17/measuring-amp-performance/" target="_blank">blog.amp.dev/2018/01/17/measuring-amp-performance/</a>
 
-### reCAPTCHA's effect on page speed
+### reCAPTCHA's affect on page speed
 
 In AMP pages, reCAPTCHA verification widget is added to any form whose reCAPTCHA verification is turned on in the form's settings.
 

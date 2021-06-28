@@ -28,6 +28,10 @@
   "/search-35c": {
     "component": "component---c-users-omerr-desktop-duda-docs-node-modules-docusaurus-preset-classic-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-js-7-de-34e"
   },
+  "/test-9d2": {
+    "component": "component---site-src-pages-test-js-65-d-1fe",
+    "config": "config---5-e-9-4f3"
+  },
   "/docs-ece": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
