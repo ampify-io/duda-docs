@@ -50,31 +50,33 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ### Contact Form
 <img className="higher" width='50px' src={useBaseUrl('Contact_Form.png')} />
 
-* **reCaptcha**:
-  * If reCaptcha verification is turned on for a specific form, the AMP version of it will appear in the AMP page.
+* **reCAPTCHA**:
+  * If reCAPTCHA verification is turned on for a specific form, the AMP version of it will appear in the AMP page.
       <img  className="shadow" width='200px' src={useBaseUrl('recaptcha.png')} />
       
-  * The reCaptcha badge is positioned at the bottom of the form, above the 'Submit' button. It can't be edited.
-  * For a form-submit to be successful, the visitor is requested to check the ckeckbox. It is possible to send a form without checking the reCaptcha checkbox, however an error will show up.
+  * The reCAPTCHA badge is positioned at the bottom of the form, above the 'Submit' button. It can't be edited.
+  * For a form-submit to be successful, the visitor is requested to check the ckeckbox. It is possible to send a form without checking the reCAPTCHA checkbox, however an error will show up.
   * AMP recaptcha may take a few seconds to load after the site is live.
-  * AMP forms with reCaptcha verification require double tap on the 'submit' button. After the first tap, an icon appears on the Sumbit button, indicating the requirement for the 2nd tap. The visitor will receive the form submitted notification. 
+  * AMP forms with reCAPTCHA verification require double tap on the 'submit' button. After the first tap, an icon appears on the Sumbit button, indicating the requirement for the 2nd tap. The visitor will receive the form submitted notification. 
 
       <img  className="" width='60px' src={useBaseUrl('clickagain.png')} />
 
 
-  * **It is possible to remove the reCaptcha verification** in AMP by disabling it in the editor:
-    * In the form settings, uncheck the 'Add reCAPTCHA validation' button. 
+  ### Deactivate reCAPTCHA to improve page speed
+  
+  reCAPTCHA in AMP can impact performance. It is recommended to switch off the reCAPTCHA verification in AMP by disabling it in the editor:
+  * In the form settings, uncheck the 'Add reCAPTCHA validation' button. 
 
-        <img className="shadow" width='500px' src={useBaseUrl('recaptcha_disable.png')} />
+      <img className="shadow" width='500px' src={useBaseUrl('recaptcha_disable.png')} />
 
-    * If the button is not available, it is possible to edit the code of the widget:
-        in the settings menu, click 'Edit HTML/CSS'
+  * If the button is not available, it is possible to edit the code of the widget:
+      in the settings menu, click 'Edit HTML/CSS'
 
-        <img className="shadow" width='500px' src={useBaseUrl('recaptcha_settings.png')} />
+      <img className="shadow" width='500px' src={useBaseUrl('recaptcha_settings.png')} />
 
-        in the new window, set the captcha to 'false, click 'update', and republish the site.
+      in the new window, set the captcha to 'false, click 'update', and republish the site.
 
-        <img className="shadow" width='550px' src={useBaseUrl('recaptchaCSS.png')} />
+      <img className="shadow" width='550px' src={useBaseUrl('recaptchaCSS.png')} />
 
     
 * **Tracking Code**: Javascripts are not allowed in AMP, so any tracking code will not persist to the AMP version. Tracking is enabled in AMP via the Google-Tag-Manager, Google Analytics, and your Editor’s Analytics Dashboard.

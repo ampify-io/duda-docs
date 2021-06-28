@@ -9,14 +9,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### HTML and CSS Customization
 
-A site's HTML or CSS can be manually edited via the Editor's Developer Mode, or via each individual widget's 'Edit HTML/CSS' option. Ampify will try to create the AMP version based of the customized code. Most times it will manage to digest the changes and create the Identical AMP version. Many times, however, discrepencies might surface. These can heppen in cases where the changes are more significant or when the changes contradict the defult AMP creation logic.
+A site's HTML or CSS can be manually edited via the editor's Developer Mode, or via each individual widget's 'Edit HTML/CSS' option. Ampify will try to create the AMP version based of the customized code. Most times it will manage to digest the changes and create an identical AMP version. Many times, however, discrepencies may surface. These can happen in cases where the changes are significant or when the changes contradict the defult AMP creation logic.
 
    <img className="shadow" width='400px' src={useBaseUrl('devwindow.png')} /> <img className="shadow" width='100%' src={useBaseUrl('devmode.png')} />
 
-When ampifying a cusomized page, **Ampify can't tell if changes were made to the page's HTML/CSS**, hence the page will be ampified normally. It is important that a proper review of the page's desgin would take place prior to approving it. The review should be more particular for the page's componenets which were manually customized. 
+When ampifying a cusomized page, **Ampify can't tell if changes were made to the page HTML/CSS**, hence the page will be ampified normally. It is important that a proper review of the page desgin would take place prior to approving it in the Ampify dashboard. The review should be more particular for the componenets which were manually customized. 
 
 ### JS Customization
-AMP doesn't support Java Scripts in the same way HTML does. When scripts are manually edited or entered into a webpage, they **will not work in the AMP version**. When ampifying a cusomized page, **Ampify can't tell if custom scripts were created**, hence the page will be ampified normally. Particular review is required on the expected scripted behhaivior prior to approving the AMP page to go live.
+AMP doesn't support Java Script in the same way HTML does. When scripts are manually edited or entered into a webpage, they **will not work in the AMP version**. When ampifying a customized page, **Ampify can't tell if custom scripts were embedded**, hence the page will be ampified normally. Particular review of the expected scripted behhaivior is required prior to approving the AMP page in the Ampify dashboard.
 
 ### Custom HTML Widget
 <img className="" width='50px' src={useBaseUrl('customhtmlwidget.png')} />
@@ -27,10 +27,9 @@ Similar to manual cusomization of specific widgets or the entire site, Custom HT
 
 Placeholder
 ### 3rd Party Apps
-3rd party apps referes to any external tool which is implemented in the site, and is not an Editor widget or an app-store app. The same restrictions apply to that code as described in the previous sections. Many external tools already have AMP specific support, which is usually associated with a different tag to be used in the site. If the HTML version of the widget doesn't work in the Ampified page, check with your provider for their support in AMP.
+3rd party apps referes to any external tool which is implemented in the site, and is not an Editor widget or an app-store app. The same restrictions apply to that code as described in the previous sections. Many external tools already have AMP specific support, which is usually associated with a different tag to be used in the site. If the HTML version of the widget doesn't work in the ampified page, check with your provider for their support in AMP.
 
-### Appstore Apps
-Ampify doesn't support 3rd-party apps which utilize scripts in the HTML page.
-If you are an app developer and you'd like your app to be supported in Ampfied pages, reach out to us at help@ampify.io.
+### App store Apps
+If you are an app developer, and your app utilizes scripts in the HTML page, Ampify may require to setup your app for it to function properly. Please reach out to us at help@ampify.io.
 
 <img className="shadow" width='400px' src={useBaseUrl('appsote.png')} />

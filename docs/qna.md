@@ -6,9 +6,9 @@ sidebar_label: Troubleshooting
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
 ### Before you troubleshoot
-AMP pages have behaviors which differ from the HTML version, and are expected:
-* Some **widgets** can behave differently. A few widgets are not supported. See details in the [Widgets page](/docs/widgets).
-* Issues with **Analytics** can be addressed in the [Analytics page](/docs/analytics)
+* If you encounter an issue with an ampified page, first regenerate the ampified version by clicking the refresh icon (&#11118;) and see if the problem persists.
+    * Some **widgets** can behave differently. A few widgets are not supported. See details in the [Widgets page](/docs/widgets).
+    * Issues with **Analytics** can be addressed in the [Analytics page](/docs/analytics)
 
 ### Custom extensions
 * Custom extensions which were created by an agency for its own use, require set up to be supported in AMP. [Read more](/docs/customized_sites#custom-html-widget).
