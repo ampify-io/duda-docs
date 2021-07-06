@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 For AMP pages, **speed test is not fully representative** of the actual speed real visitors experience.
 <img  width='500px' src={useBaseUrl('speedbeforeafter.png')} />
 
-Currently, web speed tests are conducted in the same manner for all webpages, wether plain HTML, or in AMP. However AMP derives much of its speed from two factors, **none of which is taken into consideration** in the simple speed tests:
+Currently, web speed tests are conducted in the same manner for all webpages, wether plain HTML, or AMP. However AMP derives much of its speed from two factors, **none of which is taken into consideration** in the simple speed tests:
 
 **AMP Cache**
 * AMP pages are served by Google after being cached on Google's servers, optimized (images resize, prefetch hints, minify html and CSS, etc.), and distributed to Google’s Content-Delivery-Network (CDN). These measures significantly improve actual site speed.

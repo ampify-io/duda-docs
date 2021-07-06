@@ -100,7 +100,7 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Customized sites & Apps",
+                "title": "Customized Sites, Widgets and Apps",
                 "permalink": "/docs/customized_sites"
               },
               "next": {
@@ -112,7 +112,7 @@
               "unversionedId": "customized_sites",
               "id": "customized_sites",
               "isDocsHomePage": false,
-              "title": "Customized sites & Apps",
+              "title": "Customized Sites, Widgets and Apps",
               "description": "Ampify was set up to support the editor widgets and their respective range of in-editor custimizations.",
               "source": "@site/docs/customized_sites.md",
               "sourceDirName": ".",
@@ -120,11 +120,11 @@
               "permalink": "/docs/customized_sites",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/customized_sites.md",
               "version": "current",
-              "sidebar_label": "Customized Sites & Extensions",
+              "sidebar_label": "Customized Sites & Widgets",
               "frontMatter": {
                 "id": "customized_sites",
-                "title": "Customized sites & Apps",
-                "sidebar_label": "Customized Sites & Extensions"
+                "title": "Customized Sites, Widgets and Apps",
+                "sidebar_label": "Customized Sites & Widgets"
               },
               "sidebar": "someSidebar",
               "previous": {
@@ -221,7 +221,7 @@
               "id": "widgets",
               "isDocsHomePage": false,
               "title": "Widgets",
-              "description": "Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is Ampified.",
+              "description": "Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is ampified.",
               "source": "@site/docs/widgets.md",
               "sourceDirName": ".",
               "slug": "/widgets",
@@ -240,7 +240,7 @@
                 "permalink": "/docs/page_speed_test"
               },
               "next": {
-                "title": "Customized sites & Apps",
+                "title": "Customized Sites, Widgets and Apps",
                 "permalink": "/docs/customized_sites"
               }
             }

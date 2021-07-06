@@ -3,7 +3,7 @@
   "id": "widgets",
   "isDocsHomePage": false,
   "title": "Widgets",
-  "description": "Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is Ampified.",
+  "description": "Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is ampified.",
   "source": "@site/docs/widgets.md",
   "sourceDirName": ".",
   "slug": "/widgets",
@@ -22,7 +22,7 @@
     "permalink": "/docs/page_speed_test"
   },
   "next": {
-    "title": "Customized sites & Apps",
+    "title": "Customized Sites, Widgets and Apps",
     "permalink": "/docs/customized_sites"
   }
 }

@@ -11,20 +11,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     * Issues with **Analytics** can be addressed in the [Analytics page](/docs/analytics)
 
 ### Custom extensions
-* Custom extensions which were created by an agency for its own use, require set up to be supported in AMP. [Read more](/docs/customized_sites#custom-html-widget).
+* Custom extensions which were created by an agency for its own use, require set up to be supported in AMP. [Read more](/docs/customized_sites#custom-built-widgets).
 
 ### Known issues
 * Unsupported templates:
     * Barber Shop
-    * Digital Agency
-    * CREATIVE AGENCY (AMP created but is invalid. Soon to be solved.)
-    * PHOTOGRAPHER PORTFOLIO (AMP created not accurately. will be solved soon)
 
 ### Troubleshooting:
 If a solution we provide doesn't work, reach out to us at help@ampify.io
 
 * **I discarded an element, but it continues to appear in the AMP page**
-    * Discarding an element triggers an updating of a webpage in the background. It should take a few minutes for the updated version to show up both in the preview window, and in the actual Ampified version. No further action is required. Note that like all AMP pages - it make take longer for Google to update the page in the AMP cache. 
+    * Discarding an element triggers an updating of a webpage in the background. It should take a few minutes for the updated version to show up both in the preview window, and in the actual ampified version. No further action is required. Note that like all AMP pages - it make take longer for Google to update the page in the AMP cache. 
 
 * **Some or all of the blog posts pages are not listed in the dashboard's page list**
     * Republish your site.

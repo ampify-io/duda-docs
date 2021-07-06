@@ -5,7 +5,7 @@ sidebar_label: Widgets
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
-<p className="bigfont">Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is Ampified. 
+<p className="bigfont">Most of the editor widgets have an identical or near identical AMP version which is automatically used when a page is ampified. 
 The following section details the expected behavior of each of the elements. In case there is a difference compared to the HTML version - it will be documented here.</p>
 
 ## Editor Widgets
@@ -188,7 +188,7 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ## eComerce Widgets
 <img className="higher" width='50px' src={useBaseUrl('Store_Widgets.png')} />
 
-  * eCommerce is not yet fully supported in AMP. While some store related widgets are supported, product pages, as well as Main Store widget can't be Ampified.
+  * eCommerce is not yet fully supported in AMP. While some store related widgets are supported, product pages, as well as Main Store widget can't be ampified.
   * Store Product Gallery:
     * Enabled in AMP, with the following changes:
     * Prices, Sale status, Out-of-Stock status and product details are updated when the page is being updated - they are not directly synced to the live prices in the site. If a price changes in the site - it will take effect in the AMP version only after the next update of the AMP page by Google, which may take up to several days. Keep this in mind if the prices or product statuses change frequently in the site.
