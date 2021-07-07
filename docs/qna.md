@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     * Issues with **Analytics** can be addressed in the [Analytics page](/docs/analytics)
 
 ### Custom extensions
-* Custom extensions which were created by an agency for its own use, require set up to be supported in AMP. [Read more](/docs/customized_sites#custom-built-widgets).
+* Custom extensions which were created by an agency for its own use, may require set up to be supported in AMP. [Read more](/docs/customized_sites#custom-built-widgets).
 
 ### Known issues
 * Unsupported templates:
@@ -19,6 +19,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### Troubleshooting:
 If a solution we provide doesn't work, reach out to us at help@ampify.io
+
+* **I get an 'AMP Validation Issue' error message**
+
+    AMP pages have to abide by a strict set of rules to be considered AMP valid and enjoy the AMP benefits. The most common AMP validation issue is a CSS file which exceeds 75kb in size. This usually happens on three types of web pages:
+
+    1. Pages that have a high number of different widgets
+    2. Pages that have high level of customization (e.g. multiple SVG images, or multitude of elements that have varying CSS properties).
+    3. On some occasions, pages with 3rd party tools that have a heavy CSS payload.
+
+The more selectors a CSS file has, and the more variance there is between those selectors, the probability for a CSS to be higher than 75kb goes up. 
 
 * **I discarded an element, but it continues to appear in the AMP page**
     * Discarding an element triggers an updating of a webpage in the background. It should take a few minutes for the updated version to show up both in the preview window, and in the actual ampified version. No further action is required. Note that like all AMP pages - it make take longer for Google to update the page in the AMP cache. 
