@@ -43,7 +43,7 @@ The more selectors a CSS file has, and the more variance there is between those 
     If the problem continu to persist, follow these steps, starting with identifing the issue:
     1. **A sepcific element doesn't behave as expected** (e.g. menu doesn't open):
         * Was this element's HTML/CSS directly edited?
-            * Ampify can't guarantee the accurate Ampification of elements whose source code was tempered with. Please send us information about the issue: screenshots, URL for inspection, and number of sites affected to help@ampify.io.
+            * Ampify can't guarantee the accurate ampification of elements whose source code was tempered with. Please send us information about the issue: screenshots, URL for inspection, and number of sites affected to help@ampify.io.
         * Is the element a custom widget built by your agency?
             * Read more about [custom widget](/docs/customized_sites#custom-widgets)
     2. **Multiple elements don't look/behave as expected** (e.g. size of elements on the page is wrong, elements don't show up, elements' order is wrong, elements don't respond to user interactions)

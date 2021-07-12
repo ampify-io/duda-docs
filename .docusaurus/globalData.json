@@ -21,6 +21,10 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "App",
+              "path": "/docs/App"
+            },
+            {
               "id": "customized_sites",
               "path": "/docs/customized_sites",
               "sidebar": "someSidebar"
@@ -39,6 +43,10 @@
               "id": "qna",
               "path": "/docs/qna",
               "sidebar": "someSidebar"
+            },
+            {
+              "id": "view_source_amp",
+              "path": "/docs/view_source_amp"
             },
             {
               "id": "widgets",

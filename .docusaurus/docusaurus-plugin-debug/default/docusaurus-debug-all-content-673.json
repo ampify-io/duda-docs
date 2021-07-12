@@ -109,6 +109,25 @@
               }
             },
             {
+              "unversionedId": "App",
+              "id": "App",
+              "isDocsHomePage": false,
+              "title": "App",
+              "description": "Page Statuses",
+              "source": "@site/docs/App.md",
+              "sourceDirName": ".",
+              "slug": "/App",
+              "permalink": "/docs/App",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/App.md",
+              "version": "current",
+              "sidebar_label": "App",
+              "frontMatter": {
+                "id": "App",
+                "title": "App",
+                "sidebar_label": "App"
+              }
+            },
+            {
               "unversionedId": "customized_sites",
               "id": "customized_sites",
               "isDocsHomePage": false,
@@ -214,6 +233,25 @@
               "next": {
                 "title": "General",
                 "permalink": "/docs/general"
+              }
+            },
+            {
+              "unversionedId": "view_source_amp",
+              "id": "view_source_amp",
+              "isDocsHomePage": false,
+              "title": "Enter Mobile View",
+              "description": "Viewing the AMP page in mobile mode enables functionalities which are not possible when viewing the page in the preview window each ampified page has in the dashboard.",
+              "source": "@site/docs/view_source_amp.md",
+              "sourceDirName": ".",
+              "slug": "/view_source_amp",
+              "permalink": "/docs/view_source_amp",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/view_source_amp.md",
+              "version": "current",
+              "sidebar_label": "EnterMobileView",
+              "frontMatter": {
+                "id": "view_source_amp",
+                "title": "Enter Mobile View",
+                "sidebar_label": "EnterMobileView"
               }
             },
             {

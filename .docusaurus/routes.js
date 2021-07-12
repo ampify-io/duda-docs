@@ -54,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','ece'),
+  component: ComponentCreator('/docs','671'),
   
   routes: [
 {
@@ -65,6 +65,11 @@ export default [
 {
   path: '/docs/analytics',
   component: ComponentCreator('/docs/analytics','d2a'),
+  exact: true,
+},
+{
+  path: '/docs/App',
+  component: ComponentCreator('/docs/App','023'),
   exact: true,
 },
 {
@@ -85,6 +90,11 @@ export default [
 {
   path: '/docs/qna',
   component: ComponentCreator('/docs/qna','0fe'),
+  exact: true,
+},
+{
+  path: '/docs/view_source_amp',
+  component: ComponentCreator('/docs/view_source_amp','809'),
   exact: true,
 },
 {
