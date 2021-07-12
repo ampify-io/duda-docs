@@ -1,0 +1,19 @@
+{
+  "unversionedId": "App",
+  "id": "App",
+  "isDocsHomePage": false,
+  "title": "App",
+  "description": "Page Statuses",
+  "source": "@site/docs/App copy.md",
+  "sourceDirName": ".",
+  "slug": "/App",
+  "permalink": "/docs/App",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/App copy.md",
+  "version": "current",
+  "sidebar_label": "App",
+  "frontMatter": {
+    "id": "App",
+    "title": "App",
+    "sidebar_label": "App"
+  }
+}

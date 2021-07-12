@@ -1,0 +1,19 @@
+{
+  "unversionedId": "view_source_amp",
+  "id": "view_source_amp",
+  "isDocsHomePage": false,
+  "title": "Enter Mobile View",
+  "description": "Viewing the AMP page in mobile mode enables functionalities which are not possible when viewing the page in the preview window each ampified page has in the dashboard.",
+  "source": "@site/docs/view_source_amp.md",
+  "sourceDirName": ".",
+  "slug": "/view_source_amp",
+  "permalink": "/docs/view_source_amp",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/view_source_amp.md",
+  "version": "current",
+  "sidebar_label": "EnterMobileView",
+  "frontMatter": {
+    "id": "view_source_amp",
+    "title": "Enter Mobile View",
+    "sidebar_label": "EnterMobileView"
+  }
+}

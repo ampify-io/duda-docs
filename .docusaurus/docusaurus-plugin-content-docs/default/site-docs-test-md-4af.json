@@ -1,0 +1,14 @@
+{
+  "unversionedId": "test",
+  "id": "test",
+  "isDocsHomePage": false,
+  "title": "test",
+  "description": "const features = [",
+  "source": "@site/docs/test.md",
+  "sourceDirName": ".",
+  "slug": "/test",
+  "permalink": "/docs/test",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/test.md",
+  "version": "current",
+  "frontMatter": {}
+}

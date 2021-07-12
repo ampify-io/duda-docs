@@ -1,0 +1,19 @@
+{
+  "unversionedId": "EnterMobileView",
+  "id": "EnterMobileView",
+  "isDocsHomePage": false,
+  "title": "Enter Mobile View",
+  "description": "Viewing the AMP page in mobile mode enables functionalities which are not possible when viewing the page in the preview window each ampified page has in the dashboard.",
+  "source": "@site/docs/EnterMobileView.md",
+  "sourceDirName": ".",
+  "slug": "/EnterMobileView",
+  "permalink": "/docs/EnterMobileView",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/EnterMobileView.md",
+  "version": "current",
+  "sidebar_label": "EnterMobileView",
+  "frontMatter": {
+    "id": "EnterMobileView",
+    "title": "Enter Mobile View",
+    "sidebar_label": "EnterMobileView"
+  }
+}
