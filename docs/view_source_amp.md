@@ -29,9 +29,12 @@ To view an ampified page in mobile mode (instructions for Chrome. Other browsers
 
 **<p className="bigfont">
 4) Refresh the page to make sure all components are loaded properly into mobile view.</p>**
-<img className="shadow" width='' src={useBaseUrl('ToggleLayoutShift.png')} />
 <p></p>
 
 **<p className="bigfont">
-5) Dock the developer tool to the right for a mobile optimized layout. Select the device type, with the optimal being Galaxy S5.</p>**
+5) Dock the developer tool to the right for a mobile optimized layout.
+<img className="shadow" width='' src={useBaseUrl('ToggleLayoutShift.png')} />
+<p></p>
+
+6) Select the device type, with the optimal being Galaxy S5.</p>**
 <img className="shadow" width='' src={useBaseUrl('FinalMobileLayout.png')} />

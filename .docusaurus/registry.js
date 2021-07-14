@@ -18,6 +18,7 @@ export default {
   'content---docs-customized-sites-481-b3c': [() => import(/* webpackChunkName: 'content---docs-customized-sites-481-b3c' */ "@site/docs/customized_sites.md"), "@site/docs/customized_sites.md", require.resolveWeak("@site/docs/customized_sites.md")],
   'content---docs-general-042-0a6': [() => import(/* webpackChunkName: 'content---docs-general-042-0a6' */ "@site/docs/general.md"), "@site/docs/general.md", require.resolveWeak("@site/docs/general.md")],
   'content---docs-page-speed-test-291-2d6': [() => import(/* webpackChunkName: 'content---docs-page-speed-test-291-2d6' */ "@site/docs/page_speed_test.md"), "@site/docs/page_speed_test.md", require.resolveWeak("@site/docs/page_speed_test.md")],
+  'content---docs-qna-32-d-3e5': [() => import(/* webpackChunkName: 'content---docs-qna-32-d-3e5' */ "@site/docs/contact.md"), "@site/docs/contact.md", require.resolveWeak("@site/docs/contact.md")],
   'content---docs-qna-407-535': [() => import(/* webpackChunkName: 'content---docs-qna-407-535' */ "@site/docs/qna.md"), "@site/docs/qna.md", require.resolveWeak("@site/docs/qna.md")],
   'content---docs-view-source-ampb-33-c15': [() => import(/* webpackChunkName: 'content---docs-view-source-ampb-33-c15' */ "@site/docs/view_source_amp.md"), "@site/docs/view_source_amp.md", require.resolveWeak("@site/docs/view_source_amp.md")],
   'content---docs-widgets-9-be-73f': [() => import(/* webpackChunkName: 'content---docs-widgets-9-be-73f' */ "@site/docs/widgets.md"), "@site/docs/widgets.md", require.resolveWeak("@site/docs/widgets.md")],

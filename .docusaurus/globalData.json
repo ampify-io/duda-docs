@@ -25,6 +25,11 @@
               "path": "/docs/App"
             },
             {
+              "id": "contact",
+              "path": "/docs/contact",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "customized_sites",
               "path": "/docs/customized_sites",
               "sidebar": "someSidebar"

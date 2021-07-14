@@ -43,12 +43,17 @@
               {
                 "type": "doc",
                 "id": "general"
+              },
+              {
+                "type": "doc",
+                "id": "contact"
               }
             ]
           },
           "permalinkToSidebar": {
             "/docs/about_amp": "someSidebar",
             "/docs/analytics": "someSidebar",
+            "/docs/contact": "someSidebar",
             "/docs/customized_sites": "someSidebar",
             "/docs/general": "someSidebar",
             "/docs/page_speed_test": "someSidebar",
@@ -128,6 +133,30 @@
               }
             },
             {
+              "unversionedId": "contact",
+              "id": "contact",
+              "isDocsHomePage": false,
+              "title": "Contact us",
+              "description": "Technical issues",
+              "source": "@site/docs/contact.md",
+              "sourceDirName": ".",
+              "slug": "/contact",
+              "permalink": "/docs/contact",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/contact.md",
+              "version": "current",
+              "sidebar_label": "Contact Us",
+              "frontMatter": {
+                "id": "contact",
+                "title": "Contact us",
+                "sidebar_label": "Contact Us"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "General",
+                "permalink": "/docs/general"
+              }
+            },
+            {
               "unversionedId": "customized_sites",
               "id": "customized_sites",
               "isDocsHomePage": false,
@@ -177,6 +206,10 @@
               "previous": {
                 "title": "Troubleshooting",
                 "permalink": "/docs/qna"
+              },
+              "next": {
+                "title": "Contact us",
+                "permalink": "/docs/contact"
               }
             },
             {

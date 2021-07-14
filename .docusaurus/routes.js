@@ -54,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','671'),
+  component: ComponentCreator('/docs','731'),
   
   routes: [
 {
@@ -70,6 +70,11 @@ export default [
 {
   path: '/docs/App',
   component: ComponentCreator('/docs/App','023'),
+  exact: true,
+},
+{
+  path: '/docs/contact',
+  component: ComponentCreator('/docs/contact','a89'),
   exact: true,
 },
 {

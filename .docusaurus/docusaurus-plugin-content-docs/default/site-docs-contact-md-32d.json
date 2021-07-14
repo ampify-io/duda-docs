@@ -1,0 +1,24 @@
+{
+  "unversionedId": "contact",
+  "id": "contact",
+  "isDocsHomePage": false,
+  "title": "Contact us",
+  "description": "Technical issues",
+  "source": "@site/docs/contact.md",
+  "sourceDirName": ".",
+  "slug": "/contact",
+  "permalink": "/docs/contact",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/contact.md",
+  "version": "current",
+  "sidebar_label": "Contact Us",
+  "frontMatter": {
+    "id": "contact",
+    "title": "Contact us",
+    "sidebar_label": "Contact Us"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "General",
+    "permalink": "/docs/general"
+  }
+}

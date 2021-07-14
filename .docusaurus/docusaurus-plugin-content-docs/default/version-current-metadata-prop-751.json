@@ -39,12 +39,18 @@
         "type": "link",
         "label": "General",
         "href": "/docs/general"
+      },
+      {
+        "type": "link",
+        "label": "Contact Us",
+        "href": "/docs/contact"
       }
     ]
   },
   "permalinkToSidebar": {
     "/docs/about_amp": "someSidebar",
     "/docs/analytics": "someSidebar",
+    "/docs/contact": "someSidebar",
     "/docs/customized_sites": "someSidebar",
     "/docs/general": "someSidebar",
     "/docs/page_speed_test": "someSidebar",

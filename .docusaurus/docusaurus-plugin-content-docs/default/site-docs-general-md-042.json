@@ -20,5 +20,9 @@
   "previous": {
     "title": "Troubleshooting",
     "permalink": "/docs/qna"
+  },
+  "next": {
+    "title": "Contact us",
+    "permalink": "/docs/contact"
   }
 }
