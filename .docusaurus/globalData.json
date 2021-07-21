@@ -22,7 +22,8 @@
             },
             {
               "id": "App",
-              "path": "/docs/App"
+              "path": "/docs/App",
+              "sidebar": "someSidebar"
             },
             {
               "id": "contact",

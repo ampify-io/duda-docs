@@ -6,20 +6,25 @@ sidebar_label: Page Speed Test
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
 ### Speed testing AMP pages
-For AMP pages, **speed test is not fully representative** of the actual speed real visitors experience.
+:::note Summary
+
+Page Speed Test does not factor in the components that create the AMP page speed experience, leading to subpurb scores compared to the score of the page when it's fully deployed. 
+
+:::
 <img  width='500px' src={useBaseUrl('speedbeforeafter.png')} />
+
+
 
 Currently, web speed tests are conducted in the same manner for all webpages, wether plain HTML, or AMP. However AMP derives much of its speed from two factors, **none of which is taken into consideration** in the simple speed tests:
 
-**AMP Cache**
-* AMP pages are served by Google after being cached on Google's servers, optimized (images resize, prefetch hints, minify html and CSS, etc.), and distributed to Google’s Content-Delivery-Network (CDN). These measures significantly improve actual site speed.
-* **What happens in the Speed Test**: The test loads the page directly from Ampify's servers (even if the server is on the other side of the world) without usage of the CDN to load the page from a nearby server. The loaded pages are also lacking the added optimization which they undergo when being cached.
+1. **AMP Cache**
+    * **How it improves speed**: AMP pages are served by Google after being cached on Google's servers, optimized (images resize, prefetch hints, minify html and CSS, etc.), and distributed to Google’s Content-Delivery-Network (CDN). These measures significantly improve actual site speed.
+    * **What happens in the Speed Test**: The test loads the page directly from Ampify's servers (even if the server is on the other side of the world) without usage of the CDN to load the page from a nearby server. The loaded pages are also lacking the added optimization which they undergo when being cached.
 
-**Page Pre-loading**
-1. AMP pages are pre-loaded to the visitors devices before they click on the site link in Google's search results. This means that when the click takes place - the page appears in an instant, because it's already loaded in the background.
-2. The heaviest component that is being downloaded in the AMP page speed test is a component called 'AMP runtime', which is like the AMP page’s operating system. However in reality, almost all the visitors already have this component in their device from previous visits to other AMP pages.
+2. **Page Pre-loading**
+    * **How it improves speed**: AMP pages are pre-loaded to the visitors devices before they click on the site link in Google's search results. When the click takes place - the already loaded page appears in an instant. **Plus**, The heaviest component of an AMP page is shared across all AMP pages. In reality almost all the visitors already have it in their device from previous visits to other AMP pages and it's not downloaded for each site.
 
-* **What happens in the Speed Test**: In web speed tests, all the page's components are fully downloaded + no preloading takes place. These factors reduce the LCP (Largest Contentful Paint), and the FCP (First Contentful Paint), which are two of the most significant factors for a high Core-Web-Vitals score.
+    * **What happens in the Speed Test**: In web speed tests, all the page's components are fully downloaded + no preloading takes place. These factors reduce the LCP (Largest Contentful Paint), and the FCP (First Contentful Paint), which are two of the most significant factors for a high Core-Web-Vitals score.
 
 The result is that a page speed score of 67 can actually be, with real life data, above 90.
 

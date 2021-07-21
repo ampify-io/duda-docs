@@ -26,6 +26,10 @@
               },
               {
                 "type": "doc",
+                "id": "App"
+              },
+              {
+                "type": "doc",
                 "id": "widgets"
               },
               {
@@ -53,6 +57,7 @@
           "permalinkToSidebar": {
             "/docs/about_amp": "someSidebar",
             "/docs/analytics": "someSidebar",
+            "/docs/App": "someSidebar",
             "/docs/contact": "someSidebar",
             "/docs/customized_sites": "someSidebar",
             "/docs/general": "someSidebar",
@@ -117,19 +122,28 @@
               "unversionedId": "App",
               "id": "App",
               "isDocsHomePage": false,
-              "title": "App",
-              "description": "Page Statuses",
+              "title": "Page Statuses",
+              "description": "Live",
               "source": "@site/docs/App.md",
               "sourceDirName": ".",
               "slug": "/App",
               "permalink": "/docs/App",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/App.md",
               "version": "current",
-              "sidebar_label": "App",
+              "sidebar_label": "Page Statuses",
               "frontMatter": {
                 "id": "App",
-                "title": "App",
-                "sidebar_label": "App"
+                "title": "Page Statuses",
+                "sidebar_label": "Page Statuses"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Page Speed Test",
+                "permalink": "/docs/page_speed_test"
+              },
+              "next": {
+                "title": "Widgets",
+                "permalink": "/docs/widgets"
               }
             },
             {
@@ -236,8 +250,8 @@
                 "permalink": "/docs/about_amp"
               },
               "next": {
-                "title": "Widgets",
-                "permalink": "/docs/widgets"
+                "title": "Page Statuses",
+                "permalink": "/docs/App"
               }
             },
             {
@@ -307,8 +321,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Page Speed Test",
-                "permalink": "/docs/page_speed_test"
+                "title": "Page Statuses",
+                "permalink": "/docs/App"
               },
               "next": {
                 "title": "Customized Sites, Widgets and Apps",

@@ -17,6 +17,11 @@
       },
       {
         "type": "link",
+        "label": "Page Statuses",
+        "href": "/docs/App"
+      },
+      {
+        "type": "link",
         "label": "Widgets",
         "href": "/docs/widgets"
       },
@@ -50,6 +55,7 @@
   "permalinkToSidebar": {
     "/docs/about_amp": "someSidebar",
     "/docs/analytics": "someSidebar",
+    "/docs/App": "someSidebar",
     "/docs/contact": "someSidebar",
     "/docs/customized_sites": "someSidebar",
     "/docs/general": "someSidebar",

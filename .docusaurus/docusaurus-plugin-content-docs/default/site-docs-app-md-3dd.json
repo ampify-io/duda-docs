@@ -2,18 +2,27 @@
   "unversionedId": "App",
   "id": "App",
   "isDocsHomePage": false,
-  "title": "App",
-  "description": "Page Statuses",
+  "title": "Page Statuses",
+  "description": "Live",
   "source": "@site/docs/App.md",
   "sourceDirName": ".",
   "slug": "/App",
   "permalink": "/docs/App",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/App.md",
   "version": "current",
-  "sidebar_label": "App",
+  "sidebar_label": "Page Statuses",
   "frontMatter": {
     "id": "App",
-    "title": "App",
-    "sidebar_label": "App"
+    "title": "Page Statuses",
+    "sidebar_label": "Page Statuses"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Page Speed Test",
+    "permalink": "/docs/page_speed_test"
+  },
+  "next": {
+    "title": "Widgets",
+    "permalink": "/docs/widgets"
   }
 }
