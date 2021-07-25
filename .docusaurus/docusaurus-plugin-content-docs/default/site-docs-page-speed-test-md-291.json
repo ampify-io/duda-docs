@@ -8,7 +8,6 @@
   "sourceDirName": ".",
   "slug": "/page_speed_test",
   "permalink": "/docs/page_speed_test",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/page_speed_test.md",
   "version": "current",
   "sidebar_label": "Page Speed Test",
   "frontMatter": {

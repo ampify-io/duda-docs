@@ -8,7 +8,6 @@
   "sourceDirName": ".",
   "slug": "/widgets",
   "permalink": "/docs/widgets",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/widgets.md",
   "version": "current",
   "sidebar_label": "Widgets",
   "frontMatter": {

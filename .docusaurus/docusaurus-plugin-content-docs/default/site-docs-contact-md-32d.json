@@ -8,7 +8,6 @@
   "sourceDirName": ".",
   "slug": "/contact",
   "permalink": "/docs/contact",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/contact.md",
   "version": "current",
   "sidebar_label": "Contact Us",
   "frontMatter": {

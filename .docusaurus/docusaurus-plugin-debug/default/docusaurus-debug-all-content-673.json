@@ -6,8 +6,6 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "C:\\Users\\omerr\\Desktop\\duda-docs\\sidebars.js",
@@ -76,7 +74,6 @@
               "sourceDirName": ".",
               "slug": "/about_amp",
               "permalink": "/docs/about_amp",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/about_amp.md",
               "version": "current",
               "sidebar_label": "About AMP",
               "frontMatter": {
@@ -100,7 +97,6 @@
               "sourceDirName": ".",
               "slug": "/analytics",
               "permalink": "/docs/analytics",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/analytics.md",
               "version": "current",
               "sidebar_label": "Analytics",
               "frontMatter": {
@@ -128,7 +124,6 @@
               "sourceDirName": ".",
               "slug": "/App",
               "permalink": "/docs/App",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/App.md",
               "version": "current",
               "sidebar_label": "Page Statuses",
               "frontMatter": {
@@ -156,7 +151,6 @@
               "sourceDirName": ".",
               "slug": "/contact",
               "permalink": "/docs/contact",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/contact.md",
               "version": "current",
               "sidebar_label": "Contact Us",
               "frontMatter": {
@@ -180,7 +174,6 @@
               "sourceDirName": ".",
               "slug": "/customized_sites",
               "permalink": "/docs/customized_sites",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/customized_sites.md",
               "version": "current",
               "sidebar_label": "Customized Sites & Widgets",
               "frontMatter": {
@@ -208,7 +201,6 @@
               "sourceDirName": ".",
               "slug": "/general",
               "permalink": "/docs/general",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/general.md",
               "version": "current",
               "sidebar_label": "General",
               "frontMatter": {
@@ -236,7 +228,6 @@
               "sourceDirName": ".",
               "slug": "/page_speed_test",
               "permalink": "/docs/page_speed_test",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/page_speed_test.md",
               "version": "current",
               "sidebar_label": "Page Speed Test",
               "frontMatter": {
@@ -255,6 +246,24 @@
               }
             },
             {
+              "unversionedId": "page_speed_test2",
+              "id": "page_speed_test2",
+              "isDocsHomePage": false,
+              "title": "Page Speed Test2",
+              "description": "Speed testing AMP pages",
+              "source": "@site/docs/page_speed_test copy.md",
+              "sourceDirName": ".",
+              "slug": "/page_speed_test2",
+              "permalink": "/docs/page_speed_test2",
+              "version": "current",
+              "sidebar_label": "Page Speed Test2",
+              "frontMatter": {
+                "id": "page_speed_test2",
+                "title": "Page Speed Test2",
+                "sidebar_label": "Page Speed Test2"
+              }
+            },
+            {
               "unversionedId": "qna",
               "id": "qna",
               "isDocsHomePage": false,
@@ -264,7 +273,6 @@
               "sourceDirName": ".",
               "slug": "/qna",
               "permalink": "/docs/qna",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/qna.md",
               "version": "current",
               "sidebar_label": "Troubleshooting",
               "frontMatter": {
@@ -292,7 +300,6 @@
               "sourceDirName": ".",
               "slug": "/view_source_amp",
               "permalink": "/docs/view_source_amp",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/view_source_amp.md",
               "version": "current",
               "sidebar_label": "EnterMobileView",
               "frontMatter": {
@@ -311,7 +318,6 @@
               "sourceDirName": ".",
               "slug": "/widgets",
               "permalink": "/docs/widgets",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/widgets.md",
               "version": "current",
               "sidebar_label": "Widgets",
               "frontMatter": {

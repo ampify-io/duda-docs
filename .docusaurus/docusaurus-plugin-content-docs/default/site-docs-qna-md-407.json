@@ -8,7 +8,6 @@
   "sourceDirName": ".",
   "slug": "/qna",
   "permalink": "/docs/qna",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/qna.md",
   "version": "current",
   "sidebar_label": "Troubleshooting",
   "frontMatter": {

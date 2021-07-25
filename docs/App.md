@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### Live 
 <img className="higher" width='40px' src={useBaseUrl('statusLive.png')} />
 
-The ampified version was approved and was deployed to the site. Even though the AMP page was deployed, it usually takes some time for Google to pull the updated AMP version to its AMP cache, and begin serving it to visitors.
+The ampified version was approved and was deployed to the site. Even though the AMP page was deployed, it usually takes some time for Google to pull the updated AMP version to its AMP cache, and begin serving it to visitors. To expedite this process, click on the 're-indexing' button in your site’s Google Search Console.
 
 ### Draft Page
 <img className="higher" width='90px' src={useBaseUrl('StatusDraftPage.png')} />

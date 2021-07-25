@@ -54,8 +54,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\omerr\\Desktop\\duda-docs\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "sidebarPath": "C:\\Users\\omerr\\Desktop\\duda-docs\\sidebars.js"
         },
         "theme": {
           "customCss": "C:\\Users\\omerr\\Desktop\\duda-docs\\src\\css\\custom.css"
