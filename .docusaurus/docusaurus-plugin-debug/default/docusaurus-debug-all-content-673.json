@@ -222,9 +222,36 @@
               "unversionedId": "page_speed_test",
               "id": "page_speed_test",
               "isDocsHomePage": false,
+              "title": "Page Speed Preview",
+              "description": "Google's Page Preview tool provides a visual way to experience the increased speed of AMP pages. It compelements Google's Page Speed Insights, which does not take into considiration factors that facilitatae the AMP speed, leading to subpurb scores compaerd to reality.",
+              "source": "@site/docs/page_speed_test.md",
+              "sourceDirName": ".",
+              "slug": "/page_speed_test",
+              "permalink": "/docs/page_speed_test",
+              "version": "current",
+              "sidebar_label": "Page Speed Preview",
+              "frontMatter": {
+                "id": "page_speed_test",
+                "title": "Page Speed Preview",
+                "sidebar_label": "Page Speed Preview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "About AMP",
+                "permalink": "/docs/about_amp"
+              },
+              "next": {
+                "title": "Page Statuses",
+                "permalink": "/docs/App"
+              }
+            },
+            {
+              "unversionedId": "page_speed_test",
+              "id": "page_speed_test",
+              "isDocsHomePage": false,
               "title": "Page Speed Test",
               "description": "Speed testing AMP pages",
-              "source": "@site/docs/page_speed_test.md",
+              "source": "@site/docs/page_speed_test_old.md",
               "sourceDirName": ".",
               "slug": "/page_speed_test",
               "permalink": "/docs/page_speed_test",
@@ -243,24 +270,6 @@
               "next": {
                 "title": "Page Statuses",
                 "permalink": "/docs/App"
-              }
-            },
-            {
-              "unversionedId": "page_speed_test2",
-              "id": "page_speed_test2",
-              "isDocsHomePage": false,
-              "title": "Page Speed Test2",
-              "description": "Speed testing AMP pages",
-              "source": "@site/docs/page_speed_test copy.md",
-              "sourceDirName": ".",
-              "slug": "/page_speed_test2",
-              "permalink": "/docs/page_speed_test2",
-              "version": "current",
-              "sidebar_label": "Page Speed Test2",
-              "frontMatter": {
-                "id": "page_speed_test2",
-                "title": "Page Speed Test2",
-                "sidebar_label": "Page Speed Test2"
               }
             },
             {

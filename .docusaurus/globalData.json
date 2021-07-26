@@ -46,8 +46,9 @@
               "sidebar": "someSidebar"
             },
             {
-              "id": "page_speed_test2",
-              "path": "/docs/page_speed_test2"
+              "id": "page_speed_test",
+              "path": "/docs/page_speed_test",
+              "sidebar": "someSidebar"
             },
             {
               "id": "qna",

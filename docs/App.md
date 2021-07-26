@@ -26,6 +26,13 @@ The AMP version is awaiting to be approved. AMP pages may have differences compa
 
 A page which was skipped will not get an AMP version.
 
+### Creating/Converting
+<img className="higher" width='130px' src={useBaseUrl('creatingAMP.png')} />
+
+The AMP page is being generated. During this process, we crawl the HTML page and use Ampify's AI to convert each element in the page to an AMP camptible that will be near identical to the source. We also flag elements which might require specific review by you in order for the page to go live.
+
+The creation of a web page should last no more than a few minutes. If a page is stuck at this status please contact us to solve the issue.
+
 ### AMP Validation Issue
 <img className="higher" width='140px' src={useBaseUrl('StatusAmpValidationIssue.png')} />
 

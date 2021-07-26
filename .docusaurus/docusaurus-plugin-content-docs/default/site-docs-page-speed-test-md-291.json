@@ -2,18 +2,18 @@
   "unversionedId": "page_speed_test",
   "id": "page_speed_test",
   "isDocsHomePage": false,
-  "title": "Page Speed Test",
-  "description": "Speed testing AMP pages",
+  "title": "Page Speed Preview",
+  "description": "Google's Page Preview tool provides a visual way to experience the increased speed of AMP pages. It compelements Google's Page Speed Insights, which does not take into considiration factors that facilitatae the AMP speed, leading to subpurb scores compaerd to reality.",
   "source": "@site/docs/page_speed_test.md",
   "sourceDirName": ".",
   "slug": "/page_speed_test",
   "permalink": "/docs/page_speed_test",
   "version": "current",
-  "sidebar_label": "Page Speed Test",
+  "sidebar_label": "Page Speed Preview",
   "frontMatter": {
     "id": "page_speed_test",
-    "title": "Page Speed Test",
-    "sidebar_label": "Page Speed Test"
+    "title": "Page Speed Preview",
+    "sidebar_label": "Page Speed Preview"
   },
   "sidebar": "someSidebar",
   "previous": {
