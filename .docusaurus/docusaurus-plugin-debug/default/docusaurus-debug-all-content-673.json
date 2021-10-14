@@ -83,7 +83,7 @@
               },
               "sidebar": "someSidebar",
               "next": {
-                "title": "Page Speed Test",
+                "title": "Page Speed Preview",
                 "permalink": "/docs/page_speed_test"
               }
             },
@@ -133,7 +133,7 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Page Speed Test",
+                "title": "Page Speed Preview",
                 "permalink": "/docs/page_speed_test"
               },
               "next": {
@@ -246,30 +246,21 @@
               }
             },
             {
-              "unversionedId": "page_speed_test",
-              "id": "page_speed_test",
+              "unversionedId": "page_speed_test_old",
+              "id": "page_speed_test_old",
               "isDocsHomePage": false,
               "title": "Page Speed Test",
               "description": "Speed testing AMP pages",
               "source": "@site/docs/page_speed_test_old.md",
               "sourceDirName": ".",
-              "slug": "/page_speed_test",
-              "permalink": "/docs/page_speed_test",
+              "slug": "/page_speed_test_old",
+              "permalink": "/docs/page_speed_test_old",
               "version": "current",
               "sidebar_label": "Page Speed Test",
               "frontMatter": {
-                "id": "page_speed_test",
+                "id": "page_speed_test_old",
                 "title": "Page Speed Test",
                 "sidebar_label": "Page Speed Test"
-              },
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "About AMP",
-                "permalink": "/docs/about_amp"
-              },
-              "next": {
-                "title": "Page Statuses",
-                "permalink": "/docs/App"
               }
             },
             {

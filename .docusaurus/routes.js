@@ -54,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','c1e'),
+  component: ComponentCreator('/docs','75c'),
   
   routes: [
 {
@@ -93,8 +93,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/page_speed_test',
-  component: ComponentCreator('/docs/page_speed_test','ed9'),
+  path: '/docs/page_speed_test_old',
+  component: ComponentCreator('/docs/page_speed_test_old','07f'),
   exact: true,
 },
 {

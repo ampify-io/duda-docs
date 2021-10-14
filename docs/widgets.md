@@ -194,4 +194,11 @@ Accordion tabs open in a slightly smoother manner compared to the source.
     * Prices, Sale status, Out-of-Stock status and product details are updated when the page is being updated - they are not directly synced to the live prices in the site. If a price changes in the site - it will take effect in the AMP version only after the next update of the AMP page by Google, which may take up to several days. Keep this in mind if the prices or product statuses change frequently in the site.
 ## AMP support for old widgets
   * Ampify supported the widgts' latest version. If you encounter an issue in Ampifying a specific widget, check in the Editor if this widget is up to date.
+## 3rd Party Widgets
+### Userway
 
+  * Userway icon shows up like in the HTML version. It can be hidden in a similar fashion. When clicking on the icon itself, the page will redirect to the source page for the user to interact with the source Userway widget.  
+  
+### User Centric
+
+  * User Centric cookie notice shows up like in the HTML version, and behaves in a similaqr fashion. When accepting the notice, it disappears. When denying or clicking the settings button, the page will redirect to the source page for the user to interact with the source UserCentric widget.
