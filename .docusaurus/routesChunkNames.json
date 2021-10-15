@@ -1,61 +1,83 @@
 {
   "/-deb": {
-    "component": "c4f5d8e4",
-    "config": "5e9f5e1a"
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3"
+  },
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
   },
   "/search-35c": {
-    "component": "7de9a1dc"
+    "component": "component---c-users-omerr-desktop-duda-docs-node-modules-docusaurus-preset-classic-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-js-7-de-34e"
   },
   "/test-9d2": {
-    "component": "65d5d11a",
-    "config": "5e9f5e1a"
+    "component": "component---site-src-pages-test-js-65-d-1fe",
+    "config": "config---5-e-9-4f3"
   },
   "/docs-75c": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/about_amp-daf": {
-    "component": "17896441",
-    "content": "cc4e054e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-about-ampcc-4-3a5"
   },
   "/docs/analytics-d2a": {
-    "component": "17896441",
-    "content": "7cf5b435"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-analytics-7-cf-4eb"
   },
   "/docs/App-023": {
-    "component": "17896441",
-    "content": "3dd4ae2b"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-app-3-dd-98d"
   },
   "/docs/contact-a89": {
-    "component": "17896441",
-    "content": "32dd35a8"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-contact-32-d-c61"
   },
   "/docs/customized_sites-7a0": {
-    "component": "17896441",
-    "content": "4819b8e3"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-customized-sites-481-b3c"
   },
   "/docs/general-f70": {
-    "component": "17896441",
-    "content": "0428ee79"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-general-042-0a6"
   },
   "/docs/page_speed_test-d87": {
-    "component": "17896441",
-    "content": "29175751"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-page-speed-test-291-2d6"
   },
   "/docs/page_speed_test_old-07f": {
-    "component": "17896441",
-    "content": "86202d81"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-page-speed-test-old-862-357"
   },
   "/docs/qna-0fe": {
-    "component": "17896441",
-    "content": "4074bcd1"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-qna-407-535"
   },
   "/docs/view_source_amp-809": {
-    "component": "17896441",
-    "content": "b33c8d9c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-view-source-ampb-33-c15"
   },
   "/docs/widgets-2a5": {
-    "component": "17896441",
-    "content": "9be9f402"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-widgets-9-be-73f"
   }
 }
