@@ -8,6 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 :::note Summary
 
  Google's Page Preview tool provides a visual way to experience the increased speed of AMP pages. It compelements Google's <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Page Speed Insights</a>, which does not take into considiration factors that facilitatae the AMP speed, leading to subpurb scores compaerd to reality.
+ The effect AMP has on your site is bast monitored via your Google Search Console's Core-Web-Vitals tab.
 
 :::
 <a href="https://storage.googleapis.com/duda-ampify-app/static%20marketing/AMP%20sped%20simulation.mp4"><img  width='600px' src={useBaseUrl('speedgif.gif')} /></a>
@@ -21,7 +22,16 @@ The AMP Page preview isllustrates the way an AMP page would show up in Google's 
 
 <img  className="shadow" width='300px' src={useBaseUrl('previewtitle.png')} />
 
+### Using Google Search Console to see AMP impact
 
+For many, the purpose of supporting AMP is to affect the site's search rank. 
+Core Web Vitals is a set of performance and UX signals which Google measures, and significantly affect a page's SEO. 
+AMP's impact is most clearly visible from the 'Core Web Vitals' tab in the Google Search Console. Your goal as a site owner is for as many pages as possible to pass the core web vitals test and get a 'good' score (green). 
+
+Once you go live with an AMP page, Google will measure its performance with actual visitors over the course of several weeks. You should expect to see an increase in the amount of pages that pass the test.
+<img  className="shadow" src={useBaseUrl('search_console.png')} />
+
+ 
 ### Traditional Speed tests can be inaccurate for AMP
 
 Web speed tests like <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Page Speed Insights</a> are conducted in the same manner for all webpages, wether plain HTML or AMP. However AMP derives much of its speed from two factors, **none of which is taken into consideration** in plain speed tests:

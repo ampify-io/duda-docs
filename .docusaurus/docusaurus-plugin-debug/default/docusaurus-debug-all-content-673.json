@@ -69,7 +69,7 @@
               "id": "about_amp",
               "isDocsHomePage": false,
               "title": "About AMP",
-              "description": "What is AMP",
+              "description": "#### AMP is an emerging web standard of light web pages that pre-load to the visitors devices before being opened. By the time the visitor clicks to enter the site, it opens near instantly.",
               "source": "@site/docs/about_amp.md",
               "sourceDirName": ".",
               "slug": "/about_amp",
@@ -319,11 +319,11 @@
               "slug": "/widgets",
               "permalink": "/docs/widgets",
               "version": "current",
-              "sidebar_label": "Widgets",
+              "sidebar_label": "Site Elements",
               "frontMatter": {
                 "id": "widgets",
                 "title": "Widgets",
-                "sidebar_label": "Widgets"
+                "sidebar_label": "Site Elements"
               },
               "sidebar": "someSidebar",
               "previous": {

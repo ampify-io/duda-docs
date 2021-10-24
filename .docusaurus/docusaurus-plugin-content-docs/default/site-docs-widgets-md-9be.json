@@ -9,11 +9,11 @@
   "slug": "/widgets",
   "permalink": "/docs/widgets",
   "version": "current",
-  "sidebar_label": "Widgets",
+  "sidebar_label": "Site Elements",
   "frontMatter": {
     "id": "widgets",
     "title": "Widgets",
-    "sidebar_label": "Widgets"
+    "sidebar_label": "Site Elements"
   },
   "sidebar": "someSidebar",
   "previous": {

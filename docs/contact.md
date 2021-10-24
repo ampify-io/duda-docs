@@ -7,13 +7,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### Technical issues
 Please verify the following before sending a support issue:
-1. **The issue persists**: if your experiencing an issue on a single page, please try to update it to see if it is solved. 
+1. **The issue persists**: if you're experiencing an issue on a single page, please try to update it to see if it is solved. 
 2. **The issue is not covered on our documentation**:
     * Expected widgets behavior is covered in the [widget section](/docs/widgets).
     * When do AMP pages show up in the search results: [click here](/docs/about_amp#when-do-new-amp-pages-appear-on-google)
-    * AMP does not inherently support 3rd party tools. [Learn more](/docs/customized_sites#custom-built-widgets)
+    * [AMP support of 3rd party tools](/docs/customized_sites#custom-built-widgets)
 
-Send us a description of the issue and the site or pages in which the issues occurs. Screenshots or screen recordings can also assist us in solving the issue. Our support email: support@ampify.io
+Send us a description of the issue and the site or pages in which the issues occurs. Screenshots or screen recordings can also assist us in solving the issue. 
+You can contact us via the 'Support' icon to the left 👈. Alternatively, our support email: support@ampify.io
 
 ### AMP support for custom widgets
 Custom built widget might not perform as expected in their AMP version. Such dynamic elements require a dedicated setup to behave properly in the AMP page. If you're an agency with a custom built widget, reach out to us with the following:

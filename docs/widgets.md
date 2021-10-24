@@ -1,7 +1,7 @@
 ---
 id: widgets
 title: Widgets
-sidebar_label: Widgets
+sidebar_label: Site Elements
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 

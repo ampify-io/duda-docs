@@ -5,16 +5,29 @@ sidebar_label: About AMP
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
+ #### AMP is an emerging web standard of light web pages that pre-load to the visitors devices before being opened. By the time the visitor clicks to enter the site, it opens near instantly.
 
-## What is AMP
-<img className="lower" width='90px' src={useBaseUrl('ampicon.png')}/>
+<p></p>
 
-Accelerated Mobile Pages (AMP) is a lightweight version of your site, designed to give mobile visitors a lightning-fast, smooth and engaging experience. AMP maximizes your Core Web Vitals score, providing better SEO and a 30% increase in search traffic on average. AMP pages receive the desired ‘accelerated-page’ badge ⚡ in the search results and are pre-loaded by Google in their search results, leading to a near-instant loading time.
+<img  width='30%' src={useBaseUrl('Rank_higher.png')} />
+
+<img  width='30%' src={useBaseUrl('CoreWebVitalX5.png')} />
+
+<img  width='30%' src={useBaseUrl('low_bounce.png')} />
+
+<p></p>
+
+AMP was launched by Google to enable sites to be as mobile-friendly as possible. This is one of the reasons AMP pages achieve very high Core Web Vitals scores (X5 compared to HTML on average), and as a result - their improved SEO gains **30% more search traffic** on average. On top of that, while in HTML pages bounce rate reaches 40% of all visitors after just 5 seconds of load time, AMP's instant page speed **cuts this loss by up to 70%**. Put together - _the uplift of enabling AMP can exceed **50% more engaged visitors**_.
+
+**AMP is used by the most popular sites online**<br></br>
+Of the biggest sites online, 1 of 5 support AMP. However, only 1 of 20 small sites have the resources to enable AMP. 
+Ampify enables you to benefit form AMP just like the leading sites in the world.
+
 <img  width='300px' src={useBaseUrl('AMPvisual.png')} />
 
 ### How AMP works
-1. Once a page is ampified, an AMP version of the page exists alongside the HTML version. 
-2. Whenever Google indexes the HTML page, Google checks whether an AMP version exists for that page. This is done using a special tag which is placed in the page's code when it is being ampified.
+1. Once a page is ampified, an AMP version of the page is created and continues to cexist alongside the HTML version of the page. 
+2. Whenever Google indexes the HTML page, Google checks whether an AMP version exists for that page. This is done using a special tag which is placed in the page's header when it is being ampified.
 3. Google then validates that the page meets all the restrictions every AMP page must abide by in order to be valid. 
 4. Google then starts serving the AMP pages in the search results. Only valid AMP pages enjoy the benefits of page pre-loading, Google Cache acceleration, and the 'accelerated-page' badge.
 
@@ -26,6 +39,9 @@ Accelerated Mobile Pages (AMP) is a lightweight version of your site, designed t
 3. Once Google indexes the webpage (which it does on a regular basis), it reads the amphtml tag and follows it to the ampified version of the page. 
 4. Google makes sure that the AMP page is valid, and if it is - it further optimizes it and stores it in the AMP cache.
 5. From that moment on the AMP page will be served in Google's mobile search results and will enjoy the suite of acceleration benefits. 
+
+### How Ampify works:
+<iframe width="336" height="189" src="https://www.youtube.com/embed/JEyIbZwFjRA?start=313" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## When do new AMP pages appear on Google?
 For a new AMP page to appear in the Google search results, Google needs to first index the HTML version, and 'discover' the AMP version. Google's rate of indexing is dependant on the amount of traffic to the site - the more traffic, the higher the rate and the sooner the AMP version will go live. **For sites with low traffic, it can take between several days and in some cases - a couple of weeks**. The only way to expedite this process is to click the re-index button in the site's search console.
