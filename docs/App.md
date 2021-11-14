@@ -42,7 +42,7 @@ The creation of a web page should last no more than a few minutes. If a page is 
 2. Pages that have high level of customization (e.g. multiple SVG images, or multitude of elements that have varying CSS properties).
 3. On some occasions, pages with 3rd party tools that have a heavy CSS payload.
 
-The more selectors a CSS file has, and the more variance there is between those selectors, the probability for a CSS to be higher than 75kb goes up. The only way to solve this issue is by removing unused elements from the HTML version itself. 
+More technically, the more selectors a CSS file has, and the more variance there is between those selectors, the higher the probability is for a CSS to to be heavier than the 75kb allowed. Most pages don't reach this level of complexity - but if a page does reach it, there are two options - either to change the page itself by removing unused elements like 3rd party widgets or redundant popups, or to skip that page and ampifying the parts of the site which are adequate for AMP. 
 
 ### Failed
 <img className="higher" width='60px' src={useBaseUrl('StatusFailed.png')} />
