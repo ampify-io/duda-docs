@@ -34,7 +34,7 @@ Once you go live with an AMP page, Google will measure its performance with actu
  
 ### Traditional Speed tests can be inaccurate for AMP
 
-Web speed tests like <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Page Speed Insights</a> are conducted in the same manner for all webpages, wether plain HTML or AMP. However AMP derives much of its speed from two factors, **none of which is taken into consideration** in plain speed tests:
+Web speed tests like <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Page Speed Insights</a> are conducted in the same manner for all webpages, whether plain HTML or AMP. However AMP derives much of its speed from two factors, **none of which is taken into consideration** in plain speed tests:
 
 1. **AMP Cache**
     * **How it improves speed**: AMP pages are served by Google after being cached on Google's servers, optimized (images resize, prefetch hints, minify html and CSS, etc.), and distributed to Google’s Content-Delivery-Network (CDN). These measures significantly improve actual site speed.
