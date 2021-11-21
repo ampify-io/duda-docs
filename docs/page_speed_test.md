@@ -41,7 +41,7 @@ Web speed tests like <a href="https://developers.google.com/speed/pagespeed/insi
     * **What happens in the Speed Test**: The test loads the page directly from Ampify's servers (even if the server is on the other side of the world) without usage of the CDN to load the page from a nearby server. The loaded pages are also lacking the added optimization which they undergo when being cached.
 
 2. **Page Pre-loading**
-    * **How it improves speed**: AMP pages are pre-loaded to the visitors devices before clicking to open it. When the click takes place - the already loaded page appears in an instant. **Plus**, The heaviest component of an AMP page is shared across all AMP pages. Most visitors already have it in their device from previous visits to other AMP pages - it is not downloaded for each site.
+    * **How it improves speed**: AMP pages are pre-loaded to the visitors devices before clicking to open it. When the click takes place - the already loaded page appears in an instant. **Plus**, The heaviest components of an AMP page are shared across all AMP pages. Most visitors already have them in their devices from previous visits to other AMP pages - which saves the downloaded duration for these important elements.
 
     * **What happens in the Speed Test**: In web speed tests, all the components are fully downloaded + no preloading takes place. These factors reduce the LCP (Largest Contentful Paint), and the FCP (First Contentful Paint), which are two of the most significant factors for a high Core-Web-Vitals score.
 
