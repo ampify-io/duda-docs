@@ -55,6 +55,9 @@ The more selectors a CSS file has, and the more variance there is between those 
 * **I uninstalled and reinstalled Ampify, and now the AMP page isn’t live**
     * Republish your site.
 
+* **I use empjies in my page title, but they don't show up in the page name in Ampify's dashboard**
+    * Page titles with emojies are supported in AMP, and the published AMP pages will have them included. However, the Ampify dashboard is not displaying them.
+
 * **I opened an AMP page directly from the 'amphtml' tag, and I reached a 'Service Unavailable' page**
     * This is normal. It means that the AMP page is being updated. End users will never reach this page: the client of the 'amphtml' tag is Google Bot. When it gets this message, it knows to return in a few minutes and get updated page to store in the AMP cache.
 
