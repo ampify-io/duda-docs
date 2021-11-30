@@ -44,12 +44,14 @@ The creation of a web page should last no more than a few minutes. If a page is 
 
 More technically, the more selectors a CSS file has, and the more variance there is between those selectors, the higher the probability is for a CSS to to be heavier than the 75kb allowed. Most pages don't reach this level of complexity - but if a page does reach it, your options are as follows: 
 #### Ways to Resolve AMP Inadequate
-If skipping the AMP version for the spcific inadequate page isn't an option, removal unused elements is the way to make the page lighter. This can be done in two ways:
-1. Hide the elements from the mobile version of the Duda site: AMP is based on the mobile version - so setting an element to be hidden in mobile will also hide it in the AMP version. 
+If skipping the AMP version for the spcific inadequate page isn't an option, removal of unused elements is the way to make the page lighter. This can be achieved in two ways:
+1. **Hide the elements from the mobile version of the Duda site**: AMP is based on the mobile version - so setting an element to be hidden in mobile will also hide it in the AMP version. 
 <img className="higher" width='310px' src={useBaseUrl('hide_on_mobile.png')} />
 
-2. Hide the elements only from the AMP version: For elements that you want to hide only in the AMP version (while keeping them visible in the mobile HTML page) - add the following attribute to the element via the 'edit HTML' option: "amp_hide".
+2. **Hide the elements only from the AMP version**: For elements that you want to hide only in the AMP version (while keeping them visible in the mobile HTML page) - add the following attribute to the element via the 'edit HTML' option: "amp_hide".
 <img className="higher" width='600px' src={useBaseUrl('amp_hide_attribute.png')} />
+
+After the removal, republish the site and update the AMP page to see if it turns valid.
 
 
 ### Failed
