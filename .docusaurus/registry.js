@@ -15,6 +15,7 @@ export default {
   'content---docs-about-ampcc-4-3a5': [() => import(/* webpackChunkName: 'content---docs-about-ampcc-4-3a5' */ "@site/docs/about_amp.md"), "@site/docs/about_amp.md", require.resolveWeak("@site/docs/about_amp.md")],
   'content---docs-analytics-7-cf-4eb': [() => import(/* webpackChunkName: 'content---docs-analytics-7-cf-4eb' */ "@site/docs/analytics.md"), "@site/docs/analytics.md", require.resolveWeak("@site/docs/analytics.md")],
   'content---docs-app-3-dd-98d': [() => import(/* webpackChunkName: 'content---docs-app-3-dd-98d' */ "@site/docs/App.md"), "@site/docs/App.md", require.resolveWeak("@site/docs/App.md")],
+  'content---docs-appd-01-a0a': [() => import(/* webpackChunkName: 'content---docs-appd-01-a0a' */ "@site/docs/Amp_inadequate.md"), "@site/docs/Amp_inadequate.md", require.resolveWeak("@site/docs/Amp_inadequate.md")],
   'content---docs-contact-32-d-c61': [() => import(/* webpackChunkName: 'content---docs-contact-32-d-c61' */ "@site/docs/contact.md"), "@site/docs/contact.md", require.resolveWeak("@site/docs/contact.md")],
   'content---docs-customized-sites-481-b3c': [() => import(/* webpackChunkName: 'content---docs-customized-sites-481-b3c' */ "@site/docs/customized_sites.md"), "@site/docs/customized_sites.md", require.resolveWeak("@site/docs/customized_sites.md")],
   'content---docs-general-042-0a6': [() => import(/* webpackChunkName: 'content---docs-general-042-0a6' */ "@site/docs/general.md"), "@site/docs/general.md", require.resolveWeak("@site/docs/general.md")],

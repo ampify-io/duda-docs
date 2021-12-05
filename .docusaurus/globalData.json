@@ -55,6 +55,11 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "resolve_inaqequate",
+              "path": "/docs/resolve_inaqequate",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "view_source_amp",
               "path": "/docs/view_source_amp"
             },

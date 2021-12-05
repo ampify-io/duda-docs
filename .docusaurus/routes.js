@@ -54,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','75c'),
+  component: ComponentCreator('/docs','d17'),
   
   routes: [
 {
@@ -100,6 +100,11 @@ export default [
 {
   path: '/docs/qna',
   component: ComponentCreator('/docs/qna','0fe'),
+  exact: true,
+},
+{
+  path: '/docs/resolve_inaqequate',
+  component: ComponentCreator('/docs/resolve_inaqequate','d0e'),
   exact: true,
 },
 {

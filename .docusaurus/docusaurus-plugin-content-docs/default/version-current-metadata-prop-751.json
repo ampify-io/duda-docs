@@ -22,6 +22,11 @@
       },
       {
         "type": "link",
+        "label": "Resolve AMP Inadequate",
+        "href": "/docs/resolve_inaqequate"
+      },
+      {
+        "type": "link",
         "label": "Site Elements",
         "href": "/docs/widgets"
       },
@@ -61,6 +66,7 @@
     "/docs/general": "someSidebar",
     "/docs/page_speed_test": "someSidebar",
     "/docs/qna": "someSidebar",
+    "/docs/resolve_inaqequate": "someSidebar",
     "/docs/widgets": "someSidebar"
   }
 }

@@ -28,6 +28,10 @@
               },
               {
                 "type": "doc",
+                "id": "resolve_inaqequate"
+              },
+              {
+                "type": "doc",
                 "id": "widgets"
               },
               {
@@ -61,6 +65,7 @@
             "/docs/general": "someSidebar",
             "/docs/page_speed_test": "someSidebar",
             "/docs/qna": "someSidebar",
+            "/docs/resolve_inaqequate": "someSidebar",
             "/docs/widgets": "someSidebar"
           },
           "docs": [
@@ -137,8 +142,8 @@
                 "permalink": "/docs/page_speed_test"
               },
               "next": {
-                "title": "Widgets",
-                "permalink": "/docs/widgets"
+                "title": " ",
+                "permalink": "/docs/resolve_inaqequate"
               }
             },
             {
@@ -291,6 +296,33 @@
               }
             },
             {
+              "unversionedId": "resolve_inaqequate",
+              "id": "resolve_inaqequate",
+              "isDocsHomePage": false,
+              "title": " ",
+              "description": "Why is this happening?",
+              "source": "@site/docs/Amp_inadequate.md",
+              "sourceDirName": ".",
+              "slug": "/resolve_inaqequate",
+              "permalink": "/docs/resolve_inaqequate",
+              "version": "current",
+              "sidebar_label": "Resolve AMP Inadequate",
+              "frontMatter": {
+                "id": "resolve_inaqequate",
+                "title": " ",
+                "sidebar_label": "Resolve AMP Inadequate"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Page Statuses",
+                "permalink": "/docs/App"
+              },
+              "next": {
+                "title": "Widgets",
+                "permalink": "/docs/widgets"
+              }
+            },
+            {
               "unversionedId": "view_source_amp",
               "id": "view_source_amp",
               "isDocsHomePage": false,
@@ -327,8 +359,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Page Statuses",
-                "permalink": "/docs/App"
+                "title": " ",
+                "permalink": "/docs/resolve_inaqequate"
               },
               "next": {
                 "title": "Customized Sites, Widgets and Apps",
