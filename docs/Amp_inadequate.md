@@ -1,5 +1,5 @@
 ---
-id: resolve_inaqequate
+id: resolve_inadequate
 title: " "
 sidebar_label: Resolve AMP Inadequate
 ---
@@ -18,7 +18,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 More technically, the more selectors a CSS file has, and the more variance there is between those selectors, the higher the probability is for a CSS to to be heavier than the 75kb allowed. Most pages don't reach this level of complexity - but if a page does reach it, your options are as follows: 
 
 ## Ways to Resolve AMP Inadequate
-If skipping the AMP version for the specific inadequate page isn't an option, the following options may help:
+To turn AMP inadequate page to AMP valid, the following options may help:
 [removal of unused elements](#removal-of-unused-elements) or [exclusion of popups from the AMP page ](#exclusion-of-popups-from-the-AMP-page )
 
 ### Removal of unused elements 
@@ -42,7 +42,7 @@ Excluding a popup from an AMP page will mean that following a click on an elemen
 
 To exclude a popup from a page, edit the HTML of the element that opens the popup (e.g. a button). Add a new attribute: _"popup_amp_exclude"_.
  
-The change only affects the specific instance of the popup - if it loads from other buttons of the page, the CSS will most likely not change. Similarly, if the popup is available from other pages - it will open as a popup in those pages. 
+The change affects the specific instance of the popup, so if a popup is opened from multiple buttons on the page - make sure to add the "popup_amp_exclude" attribute to all of them for the CSS payload to be removed. Similarly, if the popup is available from other pages - it will open as a popup in those pages. 
 <img className="higher" width='600px' src={useBaseUrl('popup_amp_exclude.png')} />
 
 After the change, republish the site and update the AMP page to see if it turns valid.

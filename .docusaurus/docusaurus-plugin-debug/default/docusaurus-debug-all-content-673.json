@@ -28,7 +28,7 @@
               },
               {
                 "type": "doc",
-                "id": "resolve_inaqequate"
+                "id": "resolve_inadequate"
               },
               {
                 "type": "doc",
@@ -65,7 +65,7 @@
             "/docs/general": "someSidebar",
             "/docs/page_speed_test": "someSidebar",
             "/docs/qna": "someSidebar",
-            "/docs/resolve_inaqequate": "someSidebar",
+            "/docs/resolve_inadequate": "someSidebar",
             "/docs/widgets": "someSidebar"
           },
           "docs": [
@@ -143,7 +143,7 @@
               },
               "next": {
                 "title": " ",
-                "permalink": "/docs/resolve_inaqequate"
+                "permalink": "/docs/resolve_inadequate"
               }
             },
             {
@@ -296,19 +296,19 @@
               }
             },
             {
-              "unversionedId": "resolve_inaqequate",
-              "id": "resolve_inaqequate",
+              "unversionedId": "resolve_inadequate",
+              "id": "resolve_inadequate",
               "isDocsHomePage": false,
               "title": " ",
               "description": "Why is this happening?",
               "source": "@site/docs/Amp_inadequate.md",
               "sourceDirName": ".",
-              "slug": "/resolve_inaqequate",
-              "permalink": "/docs/resolve_inaqequate",
+              "slug": "/resolve_inadequate",
+              "permalink": "/docs/resolve_inadequate",
               "version": "current",
               "sidebar_label": "Resolve AMP Inadequate",
               "frontMatter": {
-                "id": "resolve_inaqequate",
+                "id": "resolve_inadequate",
                 "title": " ",
                 "sidebar_label": "Resolve AMP Inadequate"
               },
@@ -360,7 +360,7 @@
               "sidebar": "someSidebar",
               "previous": {
                 "title": " ",
-                "permalink": "/docs/resolve_inaqequate"
+                "permalink": "/docs/resolve_inadequate"
               },
               "next": {
                 "title": "Customized Sites, Widgets and Apps",

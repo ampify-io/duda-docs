@@ -36,6 +36,8 @@ The creation of a web page should last no more than a few minutes. If a page is 
 ### AMP Inadequate
 <img className="higher" width='140px' src={useBaseUrl('StatusAmpValidationIssue.png')} />
 
+**[→ Ways to Resolve AMP Inadequate](./resolve_inadequate#ways-to-resolve-amp-inadequate)**
+
  AMP pages have to abide by a strict set of rules to be considered AMP valid and enjoy the AMP benefits. The most common AMP validation issue is a CSS file which exceeds 75kb in size. This usually happens on three types of web pages:
 
 1. Pages that have a high number of different widgets
@@ -43,7 +45,7 @@ The creation of a web page should last no more than a few minutes. If a page is 
 3. On some occasions, pages with 3rd party tools that have a heavy CSS payload.
 
 More technically, the more selectors a CSS file has, and the more variance there is between those selectors, the higher the probability is for a CSS to to be heavier than the 75kb allowed. Most pages don't reach this level of complexity - but if a page does reach it, your options are as follows: 
-#### [Ways to Resolve AMP Inadequate](./resolve_inaqequate)
+
 
 
 ### Failed

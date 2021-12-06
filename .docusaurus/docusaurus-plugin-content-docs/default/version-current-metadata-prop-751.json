@@ -23,7 +23,7 @@
       {
         "type": "link",
         "label": "Resolve AMP Inadequate",
-        "href": "/docs/resolve_inaqequate"
+        "href": "/docs/resolve_inadequate"
       },
       {
         "type": "link",
@@ -66,7 +66,7 @@
     "/docs/general": "someSidebar",
     "/docs/page_speed_test": "someSidebar",
     "/docs/qna": "someSidebar",
-    "/docs/resolve_inaqequate": "someSidebar",
+    "/docs/resolve_inadequate": "someSidebar",
     "/docs/widgets": "someSidebar"
   }
 }

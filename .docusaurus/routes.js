@@ -54,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','d17'),
+  component: ComponentCreator('/docs','66e'),
   
   routes: [
 {
@@ -103,8 +103,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/resolve_inaqequate',
-  component: ComponentCreator('/docs/resolve_inaqequate','d0e'),
+  path: '/docs/resolve_inadequate',
+  component: ComponentCreator('/docs/resolve_inadequate','033'),
   exact: true,
 },
 {
