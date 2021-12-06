@@ -21,15 +21,15 @@ More technically, the more selectors a CSS file has, and the more variance there
 To turn AMP inadequate page to AMP valid, the following options may help:
 [removal of unused elements](#removal-of-unused-elements) or [exclusion of popups from the AMP page ](#exclusion-of-popups-from-the-AMP-page )
 
-### Removal of unused elements 
+### Remove unused elements 
 removal of unused elements is the way to make the page lighter. This can be achieved in two ways:
-1. #### **Hide the elements from the mobile version of the Duda site**: 
+1. #### **Hide elements from the mobile version of the Duda site**: 
 AMP is based on the mobile version - so setting an element to be hidden in mobile will also hide it in the AMP version. 
 
 <img className="higher" width='310px' src={useBaseUrl('hide_on_mobile.png')} />
 
 
-2. #### **Hide the elements only from the AMP version**: 
+2. #### **Hide elements only from the AMP version**: 
 For elements that you want to hide only in the AMP version (while keeping them visible in the mobile HTML page) - add the following attribute to the element via the 'edit HTML' option: "amp_hide".
 
 <img className="higher" width='600px' src={useBaseUrl('amp_hide_attribute.png')} />
@@ -38,13 +38,23 @@ After the removal, republish the site and update the AMP page to see if it turns
 
 ### Exclude popups from AMP page 
 Many times, popups and their contents can significantly contribute to the size of a page's CSS. 
-Excluding a popup from an AMP page will mean that following a click on an element that opens a popup, the relevant popup will open as a new page. For pages that have a high number of popups, this may **enable them to pass validation without changing the structure of their page**. 
+Excluding a popup from an AMP page will mean that following a click on an element that opens a popup, the relevant popup will open as a new page (returning to page from the popup is possible via the 'back' button).
+For pages that have a high number of popups, this can **enable them to pass validation without changing the structure of their page**. 
 
-To exclude a popup from a page, edit the HTML of the element that opens the popup (e.g. a button). Add a new attribute: _"popup_amp_exclude"_.
- 
-The change affects the specific instance of the popup, so if a popup is opened from multiple buttons on the page - make sure to add the "popup_amp_exclude" attribute to all of them for the CSS payload to be removed. Similarly, if the popup is available from other pages - it will open as a popup in those pages. 
+1. #### Exclude a single popup instance:
+Edit the HTML of the element that opens the popup (e.g. a button). Add a new attribute: _"popup_amp_exclude"_. If the popup is triggered by multiple elemetns in the page, do this for each one of them, or follow the instructions in the next section.
 <img className="higher" width='600px' src={useBaseUrl('popup_amp_exclude.png')} />
 
+2. #### Exclude all instances of a popup:
+
+If you want to exclude from AMP all the instances of a popup across the all AMP pages, add the following code to the Head HTML via your Duda dashboard.
+
+```jsx
+<script type="text/javascript">
+    window.popup_amp_exclude = ["popup_name#1","popup_name#2"]
+    </script>
+```
+Instead of popup\_name#1, place the name of your popup, with apostrophes, as it appears in the Duda popups list (make sure to keep the exact same name and letters capitalization). For multiple popups, use comma-seperation.  
+**To exclude all popups from AMP**, place the following value in the list: _"exclude_all_popups"_
+
 After the change, republish the site and update the AMP page to see if it turns valid.
-
-
