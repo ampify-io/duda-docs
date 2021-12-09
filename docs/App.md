@@ -33,7 +33,7 @@ The AMP page is being generated. During this process, we crawl the HTML page and
 
 The creation of a web page should last no more than a few minutes. If a page is stuck at this status please contact us to solve the issue.
 
-<h3><a aria-hidden="true" tabindex="-1" class="anchor" id="#amp-validation-issue"></a><a class="hash-link" href="#amp-inadequate" title="Direct link to heading">#</a></h3>
+<h3><a aria-hidden="true" tabindex="-1" class="anchor" id="amp-validation-issue"></a><a class="hash-link" href="#amp-inadequate" title="Direct link to heading">#</a></h3>
 
 ### AMP Inadequate
 <img className="higher" width='140px' src={useBaseUrl('StatusAmpValidationIssue.png')} />
