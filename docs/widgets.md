@@ -157,6 +157,7 @@ Site header is identical to the source. For headers which change on scroll:
 * Image Buttons: very seldomly, an image button might show up in the AMP version, when it doesn’t exist in the source page. To solve this, in the editor, reset that button’s visibility (click to show it, wait 5 seconds, and hide it again), re-publish the site, and update the AMP page. 
 ### Popups
   * If a popup is triggered from within another popup (e.g. a button that opens a popup sits within another popup) - the inner popup will not open as a lightbox, but rather open in a new tab. Do you require assistance with this feature? Contact us at help@ampify.io
+  * **Animations**: this relates animations set for the appearance of a popup. The supported animations are 'Fade-in' and 'Flush'. Other animation types will be converted to 'Fade-in'.
 ### Row Background Design
   * Image Slider:
     * In the AMP version, only sliding animation is supported. Other type of animation will be converted to the sliding motion.
