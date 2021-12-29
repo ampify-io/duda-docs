@@ -198,7 +198,9 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ## 3rd Party Widgets
 ## Site Search 360
 
-  * Site Search 360 is supported in AMP. Voice Search functionality isn't enabled in AMP, however upon clicking the voice search icon - the page will immediately redirect to the source HTML page, where the voice is enabled.
+  * Site Search 360 is supported in AMP. 
+  * Voice Search functionality isn't enabled in AMP, however upon clicking the voice search icon - the page will immediately redirect to the source HTML page, where the voice is enabled.
+  * Query parameter must be present (i.e. not null). By default it is not null. The query parameter is controlled from the Site Search 360 widget edit window.
 ### Userway
 
   * Userway icon shows up like in the HTML version. It can be hidden in a similar fashion. When clicking on the icon itself, the page will redirect to the source page for the user to interact with the source Userway widget.  
