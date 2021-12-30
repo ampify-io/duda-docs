@@ -196,7 +196,21 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ## AMP support for old widgets
   * Ampify supported the widgts' latest version. If you encounter an issue in Ampifying a specific widget, check in the Editor if this widget is up to date.
 ## 3rd Party Widgets
-## Site Search 360
+### Facebook Messenger
+
+  * FB Messenger is supported in AMP.
+  * When clicking the chat icon, a new chat will open either in the native app or in a new tab. This is different from the HTML version, where the chat can take place in the webpage itself.
+  * __Chat Icon Color__: If you have customized your icon color and it isn't reflected in the AMP version, apply the following solution:
+    write your widget #hex color in the following snippet (instead of #00000), paste it in the site header, then republish. 
+    (#hex color can be obtained from the Messenger setup, or by inspecting the icon in the browser) 
+
+    ```
+    <script> var fb_amp_color="#00000" </script>
+    ```
+    <img className="shadow" width="600px" src={useBaseUrl("add_html_to_head.png")} />
+
+
+### Site Search 360
 
   * Site Search 360 is supported in AMP. 
   * Voice Search functionality isn't enabled in AMP, however upon clicking the voice search icon - the page will immediately redirect to the source HTML page, where the voice is enabled.
