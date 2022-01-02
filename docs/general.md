@@ -22,7 +22,7 @@ Popups that show up to all visitors will also appear in the AMP version. Any del
 The default for Notification Bars is that they don't show up in the AMP page.  
 Ampify supports two ways to enable notification bar:
 1. __Show notification only once__:  
-This can be usuful for use cases such as cookie consent notice, or any other message you only wish to show once. To do that, paste the following script in the head HTML via your Duda dashboard.
+This can be usuful for use cases such as cookie consent notice, or any other message you only wish to show once. To do that, paste the following script in the head HTML via your Duda dashboard. __IMPORTANT__: activating this option __overrides existing cookie consents__ (e.g UserCentrics) rendering them hidden in the AMP version.
    
     <script> var amp_keep_notifications_only_once = true </script>
     
