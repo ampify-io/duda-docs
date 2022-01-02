@@ -16,9 +16,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 * Languages variations - variations of the same language are considered as a single language. E.g. *English US* and *English UK* are both treated as English, and their AMP version will be the same version.
 * Pages whose URL includes the same abbreviation as one of the site's supported languages will not appear in the list of pages and cannot be ampified. For instance, a site, whose one of its supported languages is Italian (it), and has a page with the URL https://www.example-site.com/**it**/learn-how-it-people-solve-your-computer-problems - the page URL includes "/it", and it will not be available for ampification.To overcome this issue, consider modifying the URL so the language abbreviation will not be included in it. for example: https://www.example-site.com/**i-t**/learn-how-it-people-solve-your-computer-problems.
 ### Personalization
-* Auto-popups that show up to all visitors will also appear in the AMP version. Any delay that is imposed on these popups is removed in the AMP version. Popups with a delay of more than 10 seconds are not supported. 
-* Apart from the popups, personalization features are not enabled in the AMP version of a page. The reason is that for a site to be AMP valid, most of its behaviors need to be triggered by the visitor. This means that popups, snackbar notifications and other components which are automatically triggered cannot be triggered in the AMP version.
-* In the HTML version the personalization rules continue to behave as expected, and will be applied to any visitor that lands in your site from the AMP page. For example, in a site that has an automatic welcome popup which is triggered for all visitors - a visitor which lands on an AMP page will not get that popup. Once the visitor will move from the AMP page to a different page in the site - that page will already be the HTML version (and not the AMP version). If the welcome popup is defined to be triggered in all the pages of a site - it will popup for the visitor.
+#### Auto-popup 
+Popups that show up to all visitors will also appear in the AMP version. Any delay that is imposed on these popups is removed in the AMP version. Popups with a delay of more than 10 seconds are not supported. 
+#### Notification Bars
+The default for Notification Bars is that they don't show up in the AMP page.  
+Ampify supports two ways to enable notification bar:
+1. __Show notification only once__:  
+This can be usuful for use cases such as cookie consent notice, or any other message you only wish to show once. To do that, paste the following script in the head HTML via your Duda dashboard.
+   
+    <script> var amp_keep_notifications_only_once = true </script>
+    
+2. __Show notification all the time__:  
+This means the notification will show up as part of the site, and the user will have the option to hide it using the 'x' button.
+
+    <script> var amp_keep_notifications = true </script>  
+<img className="shadow" width="600px" src={useBaseUrl("add_html_to_head.png")} />
+
+
+#### Expected Behaivior 
+In the HTML version the personalization rules continue to behave as expected, and will be applied to any visitor that lands in your site from the AMP page. For example, in a site that has an automatic welcome popup which is triggered for all visitors - a visitor which lands on an AMP page will not get that popup. Once the visitor will move from the AMP page to a different page in the site - that page will already be the HTML version (and not the AMP version). If the welcome popup is defined to be triggered in all the pages of a site - it will popup for the visitor.
 ### Dynamic Mode Pages
 * Dynamic Mode Pages are supported. They appear under Blog Posts section.
 

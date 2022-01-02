@@ -202,7 +202,7 @@ Accordion tabs open in a slightly smoother manner compared to the source.
   * When clicking the chat icon, a new chat will open either in the native app or in a new tab. This is different from the HTML version, where the chat can take place in the webpage itself.
   * __Chat Icon Color__: If you have customized your icon color and it isn't reflected in the AMP version, apply the following solution:
     write your widget #hex color in the following snippet (instead of #00000), paste it in the site header, then republish. 
-    (#hex color can be obtained from the Messenger setup, or by inspecting the icon in the browser) 
+    (#hex color can be obtained from the Messenger setup page, or by inspecting the icon in the browser) 
 
     ```
     <script> var fb_amp_color="#00000" </script>
