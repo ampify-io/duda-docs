@@ -14,7 +14,11 @@ The ampified version was approved and was deployed to the site. Even though the 
 ### Draft Page
 <img className="higher" width='90px' src={useBaseUrl('StatusDraftPage.png')} />
 
-These are pages whose HTML version was not published. Following the publish of these pages, their status will change in Ampify.
+Pages get a 'draft' status in two cases:
+1. Pages whose HTML version was not published. Following the publish of these pages, their status will change in Ampify.
+2. Pages that are set to **'no-index'**. To resolve - turn off the 'no-index' toggle button (See image) and republish the site.  
+
+<img className="" width='350px' src={useBaseUrl('noindex.png')} />
 
 ### Pending Approval
 <img className="higher" width='120px' src={useBaseUrl('StatusAwaitingApproval.png')} />
