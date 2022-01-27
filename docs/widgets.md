@@ -222,3 +222,7 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ### User Centric
 
   * User Centric cookie notice shows up like in the HTML version, and behaves in a similaqr fashion. When accepting the notice, it disappears. When denying or clicking the settings button, the page will redirect to the source page for the user to interact with the source UserCentric widget.
+
+### Ngage
+
+  * Ngage is supported in AMP. Bottom bar shows up, and clicking on it commences a chat in a new window, similar to the way it is in the HTML version. Sticky top bar is not supported in AMP.
