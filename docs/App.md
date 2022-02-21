@@ -64,7 +64,7 @@ Something went wrong during the creation process. Try to update the AMP page by 
 
 The page requires the republishing of the site to go live.
 
-### Upgrade Required
+### Awaiting Upgrade
 <img className="higher" width='130px' src={useBaseUrl('Upgrade_required.png')} />
 
 The page will go live once once you'll upgrade to a plan that enables more AMP pages. For example, if during your free trial you have gone live with 8 pages, and following the end of the free trial you have chosen the 'Basic' plan which enables up to 5 AMP pages - the bottom 3 pages will change status to 'upgrade required'. When you'll then upgrade to the next plan, which enables up to 15 AMP pages - the 'Upgrade Required' status will change back to 'Live'.
