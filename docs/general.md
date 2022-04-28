@@ -6,7 +6,7 @@ sidebar_label: General
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
 ### URL Redirects
-* URL redirects are used to guide GoogleBot to the location of the AMP page in order for it to be indexed. Only AMP URLs have redirects, never the site's own pages. For example, if you add AMP to your home page, a redirection will be from a page https://www.yoursite.com/ampify/. __This is an expected bevavior. Human visitors are never redirected to a different domain.__ Pay close attention to not delete these redirections.
+* URL redirects are required to guide GoogleBot to the location of the AMP pages in order for them to be indexed. Only AMP URLs have redirects, not the site's html pages (for example, the AMP version of /www.yoursite.com/ is www.yoursite.com/ampify/). __This is the expected bevavior, it has no affect on SEO, and human visitors are never redirected to a different domain.__ Pay attention to not delete these redirections - AMP requires them.
 
     <img className="shadow" width='75%' src={useBaseUrl('url_redirect.png')} />
 
