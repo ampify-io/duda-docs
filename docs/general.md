@@ -5,6 +5,11 @@ sidebar_label: General
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
+### URL Redirects
+* URL redirects are used to guide GoogleBot to the location of the AMP page in order for it to be indexed. Only AMP URLs have redirects, never the site's own pages. For example, if you add AMP to your home page, a redirection will be from a page https://www.yoursite.com/ampify/. __This is an expected bevavior. Human visitors are never redirected to a different domain.__ Pay close attention to not delete these redirections.
+
+    <img className="shadow" width='75%' src={useBaseUrl('url_redirect.png')} />
+
 ### Animations
 * Site animations, i.e. ornamental elements which animate into their position as the user slides down the page, might appear differently in the AMP version. This is caused due to the manner in which Ampify interacts with each page as it records its design and elements. If this behavior leads to significant issues in your site, let us know at help@ampify.io.
 ### Hover Effects

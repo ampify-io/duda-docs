@@ -201,7 +201,7 @@
               "id": "general",
               "isDocsHomePage": false,
               "title": "General",
-              "description": "Animations",
+              "description": "URL Redirects",
               "source": "@site/docs/general.md",
               "sourceDirName": ".",
               "slug": "/general",
