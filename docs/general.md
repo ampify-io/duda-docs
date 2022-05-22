@@ -42,6 +42,7 @@ This means the notification will show up as part of the site, and the user will 
 In the HTML version the personalization rules continue to behave as expected, and will be applied to any visitor that lands in your site from the AMP page. For example, in a site that has an automatic welcome popup which is triggered for all visitors - a visitor which lands on an AMP page will not get that popup. Once the visitor will move from the AMP page to a different page in the site - that page will already be the HTML version (and not the AMP version). If the welcome popup is defined to be triggered in all the pages of a site - it will popup for the visitor.
 ### Dynamic Mode Pages
 * Dynamic Mode Pages are supported. They appear under Blog Posts section.
+#### Temporarily, blog posts are not enabled in AMP.
 
 ## Progressive Web Apps (PWA)
 PWA is a type of site that can be downloaded in some mobile browsers and devices. PWA is not compatible in AMP pages - so if you have a PWA banner in your site - it will not appear in the AMP page (it will continue to appear as usual in your source HTML pages)
