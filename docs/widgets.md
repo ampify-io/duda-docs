@@ -226,3 +226,7 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ### Ngage
 
   * Ngage is supported in AMP. Bottom bar shows up, and clicking on it commences a chat in a new window, similar to the way it is in the HTML version. Sticky top bar is not supported in AMP.
+
+### Typeform
+
+  * Typeform is supported in AMP. Forms that are triggered by buttons will be opened in a full screen, like they normally do. Forms that are in an iframe will continue to be visible inside that iframe.
