@@ -1,6 +1,6 @@
 ---
 id: resolve_inadequate
-title: " "
+title: "Resolve AMP Inadequate"
 sidebar_label: AMP Inadequate
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 

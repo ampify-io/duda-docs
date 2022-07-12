@@ -263,7 +263,7 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": " ",
+                "title": "Resolve AMP Inadequate",
                 "permalink": "/docs/resolve_inadequate"
               },
               "next": {
@@ -320,7 +320,7 @@
               "unversionedId": "resolve_inadequate",
               "id": "resolve_inadequate",
               "isDocsHomePage": false,
-              "title": " ",
+              "title": "Resolve AMP Inadequate",
               "description": "Why is this happening?",
               "source": "@site/docs/Amp_inadequate.md",
               "sourceDirName": ".",
@@ -330,7 +330,7 @@
               "sidebar_label": "AMP Inadequate",
               "frontMatter": {
                 "id": "resolve_inadequate",
-                "title": " ",
+                "title": "Resolve AMP Inadequate",
                 "sidebar_label": "AMP Inadequate"
               },
               "sidebar": "someSidebar",
@@ -366,7 +366,7 @@
                 "permalink": "/docs/about_amp"
               },
               "next": {
-                "title": " ",
+                "title": "Resolve AMP Inadequate",
                 "permalink": "/docs/resolve_inadequate"
               }
             },
