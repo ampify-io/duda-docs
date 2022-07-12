@@ -1,0 +1,23 @@
+{
+  "unversionedId": "start_here",
+  "id": "start_here",
+  "isDocsHomePage": false,
+  "title": "Getting Started",
+  "description": "#### Watch: Approve multiple AMP pages, manage 3rd party elements (3 mins)",
+  "source": "@site/docs/Getting_Started.md",
+  "sourceDirName": ".",
+  "slug": "/start_here",
+  "permalink": "/docs/start_here",
+  "version": "current",
+  "sidebar_label": "Getting Started",
+  "frontMatter": {
+    "id": "start_here",
+    "title": "Getting Started",
+    "sidebar_label": "Getting Started"
+  },
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "About AMP",
+    "permalink": "/docs/about_amp"
+  }
+}

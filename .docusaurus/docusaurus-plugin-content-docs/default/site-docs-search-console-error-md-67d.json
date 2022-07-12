@@ -1,0 +1,27 @@
+{
+  "unversionedId": "search_console",
+  "id": "search_console",
+  "isDocsHomePage": false,
+  "title": "Resolve Search Console Errors",
+  "description": "Following the initial AMP setup it is not uncommon for Google Search Console to notify about an issue detected on an AMP page:",
+  "source": "@site/docs/search_console_error.md",
+  "sourceDirName": ".",
+  "slug": "/search_console",
+  "permalink": "/docs/search_console",
+  "version": "current",
+  "sidebar_label": "Search Console Errors",
+  "frontMatter": {
+    "id": "search_console",
+    "title": "Resolve Search Console Errors",
+    "sidebar_label": "Search Console Errors"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "About AMP",
+    "permalink": "/docs/about_amp"
+  },
+  "next": {
+    "title": " ",
+    "permalink": "/docs/resolve_inadequate"
+  }
+}

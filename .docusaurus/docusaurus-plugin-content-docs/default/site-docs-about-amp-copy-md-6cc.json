@@ -1,0 +1,23 @@
+{
+  "unversionedId": "about_amp",
+  "id": "about_amp",
+  "isDocsHomePage": false,
+  "title": "About AMP",
+  "description": "#### AMP is an emerging web standard of light web pages that pre-load to the visitors devices before being opened. By the time the visitor clicks to enter the site, it opens near instantly.",
+  "source": "@site/docs/about_amp copy.md",
+  "sourceDirName": ".",
+  "slug": "/about_amp",
+  "permalink": "/docs/about_amp",
+  "version": "current",
+  "sidebar_label": "About AMP",
+  "frontMatter": {
+    "id": "about_amp",
+    "title": "About AMP",
+    "sidebar_label": "About AMP"
+  },
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Page Speed Preview",
+    "permalink": "/docs/page_speed_test"
+  }
+}
