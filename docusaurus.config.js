@@ -8,6 +8,10 @@ module.exports = {
   projectName: 'duda-docs', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
+    sidebarCollapsible: false,
+    sidebar: {
+      autoCollapseCategories: false,
+    },
     colorMode: {
       disableSwitch: true},
     algolia: {

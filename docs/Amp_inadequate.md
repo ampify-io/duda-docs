@@ -1,7 +1,7 @@
 ---
 id: resolve_inadequate
 title: " "
-sidebar_label: Resolve AMP Inadequate
+sidebar_label: AMP Inadequate
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
@@ -65,7 +65,7 @@ Removal of unused or non-critical elements can reduce CSS load. This is particul
 
 
 2. #### Hide elements only from the AMP version: 
-    <details><p>For elements that you want to hide only in the AMP version (while keeping them visible in the mobile HTML page) - add the following attribute to the element via the 'edit HTML' option: "amp_hide".</p>
+    <details><p>For elements that you want to hide only in the AMP version (while keeping them visible in the mobile HTML page) - add the following attribute to the element via the 'edit HTML' option: "<b>amp_hide</b>".</p>
 
     <img className="higher" width='600px' src={useBaseUrl('amp_hide_attribute.png')} /></details>
 

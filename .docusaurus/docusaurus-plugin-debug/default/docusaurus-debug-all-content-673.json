@@ -11,12 +11,31 @@
           "sidebarFilePath": "C:\\Users\\omerr\\Desktop\\duda-docs\\sidebars.js",
           "contentPath": "C:\\Users\\omerr\\Desktop\\duda-docs\\docs",
           "contentPathLocalized": "C:\\Users\\omerr\\Desktop\\duda-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
-          "mainDocId": "about_amp",
+          "mainDocId": "start_here",
           "sidebars": {
             "someSidebar": [
               {
                 "type": "doc",
+                "id": "start_here"
+              },
+              {
+                "type": "doc",
                 "id": "about_amp"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Resolve:",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "search_console"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "resolve_inadequate"
+                  }
+                ]
               },
               {
                 "type": "doc",
@@ -25,10 +44,6 @@
               {
                 "type": "doc",
                 "id": "App"
-              },
-              {
-                "type": "doc",
-                "id": "resolve_inadequate"
               },
               {
                 "type": "doc",
@@ -66,6 +81,8 @@
             "/docs/page_speed_test": "someSidebar",
             "/docs/qna": "someSidebar",
             "/docs/resolve_inadequate": "someSidebar",
+            "/docs/search_console": "someSidebar",
+            "/docs/start_here": "someSidebar",
             "/docs/widgets": "someSidebar"
           },
           "docs": [
@@ -87,9 +104,13 @@
                 "sidebar_label": "About AMP"
               },
               "sidebar": "someSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/start_here"
+              },
               "next": {
-                "title": "Page Speed Preview",
-                "permalink": "/docs/page_speed_test"
+                "title": "Resolve Search Console Errors",
+                "permalink": "/docs/search_console"
               }
             },
             {
@@ -142,8 +163,8 @@
                 "permalink": "/docs/page_speed_test"
               },
               "next": {
-                "title": " ",
-                "permalink": "/docs/resolve_inadequate"
+                "title": "Widgets",
+                "permalink": "/docs/widgets"
               }
             },
             {
@@ -242,8 +263,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "About AMP",
-                "permalink": "/docs/about_amp"
+                "title": " ",
+                "permalink": "/docs/resolve_inadequate"
               },
               "next": {
                 "title": "Page Statuses",
@@ -306,20 +327,70 @@
               "slug": "/resolve_inadequate",
               "permalink": "/docs/resolve_inadequate",
               "version": "current",
-              "sidebar_label": "Resolve AMP Inadequate",
+              "sidebar_label": "AMP Inadequate",
               "frontMatter": {
                 "id": "resolve_inadequate",
                 "title": " ",
-                "sidebar_label": "Resolve AMP Inadequate"
+                "sidebar_label": "AMP Inadequate"
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Page Statuses",
-                "permalink": "/docs/App"
+                "title": "Resolve Search Console Errors",
+                "permalink": "/docs/search_console"
               },
               "next": {
-                "title": "Widgets",
-                "permalink": "/docs/widgets"
+                "title": "Page Speed Preview",
+                "permalink": "/docs/page_speed_test"
+              }
+            },
+            {
+              "unversionedId": "search_console",
+              "id": "search_console",
+              "isDocsHomePage": false,
+              "title": "Resolve Search Console Errors",
+              "description": "Following the initial AMP setup it is not uncommon for Google Search Console to notify about an issue detected on an AMP page:",
+              "source": "@site/docs/search_console_error.md",
+              "sourceDirName": ".",
+              "slug": "/search_console",
+              "permalink": "/docs/search_console",
+              "version": "current",
+              "sidebar_label": "Search Console Errors",
+              "frontMatter": {
+                "id": "search_console",
+                "title": "Resolve Search Console Errors",
+                "sidebar_label": "Search Console Errors"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "About AMP",
+                "permalink": "/docs/about_amp"
+              },
+              "next": {
+                "title": " ",
+                "permalink": "/docs/resolve_inadequate"
+              }
+            },
+            {
+              "unversionedId": "start_here",
+              "id": "start_here",
+              "isDocsHomePage": false,
+              "title": "Getting Started",
+              "description": "#### Watch: Approve multiple AMP pages, manage 3rd party elements (3 mins)",
+              "source": "@site/docs/Getting_Started.md",
+              "sourceDirName": ".",
+              "slug": "/start_here",
+              "permalink": "/docs/start_here",
+              "version": "current",
+              "sidebar_label": "Getting Started",
+              "frontMatter": {
+                "id": "start_here",
+                "title": "Getting Started",
+                "sidebar_label": "Getting Started"
+              },
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "About AMP",
+                "permalink": "/docs/about_amp"
               }
             },
             {
@@ -359,8 +430,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": " ",
-                "permalink": "/docs/resolve_inadequate"
+                "title": "Page Statuses",
+                "permalink": "/docs/App"
               },
               "next": {
                 "title": "Customized Sites, Widgets and Apps",

@@ -8,6 +8,10 @@ export default {
   "projectName": "duda-docs",
   "themeConfig": {
     "hideableSidebar": true,
+    "sidebarCollapsible": false,
+    "sidebar": {
+      "autoCollapseCategories": false
+    },
     "colorMode": {
       "disableSwitch": true,
       "defaultMode": "light",

@@ -9,19 +9,19 @@
   "slug": "/resolve_inadequate",
   "permalink": "/docs/resolve_inadequate",
   "version": "current",
-  "sidebar_label": "Resolve AMP Inadequate",
+  "sidebar_label": "AMP Inadequate",
   "frontMatter": {
     "id": "resolve_inadequate",
     "title": " ",
-    "sidebar_label": "Resolve AMP Inadequate"
+    "sidebar_label": "AMP Inadequate"
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Page Statuses",
-    "permalink": "/docs/App"
+    "title": "Resolve Search Console Errors",
+    "permalink": "/docs/search_console"
   },
   "next": {
-    "title": "Widgets",
-    "permalink": "/docs/widgets"
+    "title": "Page Speed Preview",
+    "permalink": "/docs/page_speed_test"
   }
 }

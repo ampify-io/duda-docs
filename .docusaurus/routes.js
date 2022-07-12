@@ -54,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','66e'),
+  component: ComponentCreator('/docs','6bc'),
   
   routes: [
 {
@@ -105,6 +105,16 @@ export default [
 {
   path: '/docs/resolve_inadequate',
   component: ComponentCreator('/docs/resolve_inadequate','033'),
+  exact: true,
+},
+{
+  path: '/docs/search_console',
+  component: ComponentCreator('/docs/search_console','8fc'),
+  exact: true,
+},
+{
+  path: '/docs/start_here',
+  component: ComponentCreator('/docs/start_here','64d'),
   exact: true,
 },
 {

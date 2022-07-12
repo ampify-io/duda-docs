@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "about_amp",
+          "mainDocId": "start_here",
           "docs": [
             {
               "id": "about_amp",
@@ -57,6 +57,16 @@
             {
               "id": "resolve_inadequate",
               "path": "/docs/resolve_inadequate",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "search_console",
+              "path": "/docs/search_console",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "start_here",
+              "path": "/docs/start_here",
               "sidebar": "someSidebar"
             },
             {

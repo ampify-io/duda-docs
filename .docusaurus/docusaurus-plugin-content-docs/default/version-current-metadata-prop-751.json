@@ -7,8 +7,30 @@
     "someSidebar": [
       {
         "type": "link",
+        "label": "Getting Started",
+        "href": "/docs/start_here"
+      },
+      {
+        "type": "link",
         "label": "About AMP",
         "href": "/docs/about_amp"
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Resolve:",
+        "items": [
+          {
+            "type": "link",
+            "label": "Search Console Errors",
+            "href": "/docs/search_console"
+          },
+          {
+            "type": "link",
+            "label": "AMP Inadequate",
+            "href": "/docs/resolve_inadequate"
+          }
+        ]
       },
       {
         "type": "link",
@@ -19,11 +41,6 @@
         "type": "link",
         "label": "Page Statuses",
         "href": "/docs/App"
-      },
-      {
-        "type": "link",
-        "label": "Resolve AMP Inadequate",
-        "href": "/docs/resolve_inadequate"
       },
       {
         "type": "link",
@@ -67,6 +84,8 @@
     "/docs/page_speed_test": "someSidebar",
     "/docs/qna": "someSidebar",
     "/docs/resolve_inadequate": "someSidebar",
+    "/docs/search_console": "someSidebar",
+    "/docs/start_here": "someSidebar",
     "/docs/widgets": "someSidebar"
   }
 }
