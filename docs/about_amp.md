@@ -1,5 +1,5 @@
 ---
-id: start_here
+id: about_amp
 title: Getting Started
 sidebar_label: Getting Started  
 ---

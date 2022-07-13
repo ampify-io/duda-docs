@@ -8,12 +8,12 @@
       {
         "type": "link",
         "label": "Getting Started",
-        "href": "/docs/start_here"
+        "href": "/docs/about_amp"
       },
       {
         "type": "link",
         "label": "About AMP",
-        "href": "/docs/about_amp"
+        "href": "/docs/about_amp_original"
       },
       {
         "collapsed": true,
@@ -76,6 +76,7 @@
   },
   "permalinkToSidebar": {
     "/docs/about_amp": "someSidebar",
+    "/docs/about_amp_original": "someSidebar",
     "/docs/analytics": "someSidebar",
     "/docs/App": "someSidebar",
     "/docs/contact": "someSidebar",
@@ -85,7 +86,6 @@
     "/docs/qna": "someSidebar",
     "/docs/resolve_inadequate": "someSidebar",
     "/docs/search_console": "someSidebar",
-    "/docs/start_here": "someSidebar",
     "/docs/widgets": "someSidebar"
   }
 }

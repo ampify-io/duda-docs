@@ -11,16 +11,16 @@
           "sidebarFilePath": "C:\\Users\\omerr\\Desktop\\duda-docs\\sidebars.js",
           "contentPath": "C:\\Users\\omerr\\Desktop\\duda-docs\\docs",
           "contentPathLocalized": "C:\\Users\\omerr\\Desktop\\duda-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
-          "mainDocId": "start_here",
+          "mainDocId": "about_amp",
           "sidebars": {
             "someSidebar": [
               {
                 "type": "doc",
-                "id": "start_here"
+                "id": "about_amp"
               },
               {
                 "type": "doc",
-                "id": "about_amp"
+                "id": "about_amp_original"
               },
               {
                 "collapsed": true,
@@ -73,6 +73,7 @@
           },
           "permalinkToSidebar": {
             "/docs/about_amp": "someSidebar",
+            "/docs/about_amp_original": "someSidebar",
             "/docs/analytics": "someSidebar",
             "/docs/App": "someSidebar",
             "/docs/contact": "someSidebar",
@@ -82,7 +83,6 @@
             "/docs/qna": "someSidebar",
             "/docs/resolve_inadequate": "someSidebar",
             "/docs/search_console": "someSidebar",
-            "/docs/start_here": "someSidebar",
             "/docs/widgets": "someSidebar"
           },
           "docs": [
@@ -90,23 +90,46 @@
               "unversionedId": "about_amp",
               "id": "about_amp",
               "isDocsHomePage": false,
-              "title": "About AMP",
-              "description": "#### AMP is an emerging web standard of light web pages that pre-load to the visitors devices before being opened. By the time the visitor clicks to enter the site, it opens near instantly.",
+              "title": "Getting Started",
+              "description": "#### Watch: Approve multiple AMP pages, manage 3rd party elements (3 mins)",
               "source": "@site/docs/about_amp.md",
               "sourceDirName": ".",
               "slug": "/about_amp",
               "permalink": "/docs/about_amp",
               "version": "current",
-              "sidebar_label": "About AMP",
+              "sidebar_label": "Getting Started",
               "frontMatter": {
                 "id": "about_amp",
+                "title": "Getting Started",
+                "sidebar_label": "Getting Started"
+              },
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "About AMP",
+                "permalink": "/docs/about_amp_original"
+              }
+            },
+            {
+              "unversionedId": "about_amp_original",
+              "id": "about_amp_original",
+              "isDocsHomePage": false,
+              "title": "About AMP",
+              "description": "#### AMP is an emerging web standard of light web pages that pre-load to the visitors devices before being opened. By the time the visitor clicks to enter the site, it opens near instantly.",
+              "source": "@site/docs/about_amp_original.md",
+              "sourceDirName": ".",
+              "slug": "/about_amp_original",
+              "permalink": "/docs/about_amp_original",
+              "version": "current",
+              "sidebar_label": "About AMP",
+              "frontMatter": {
+                "id": "about_amp_original",
                 "title": "About AMP",
                 "sidebar_label": "About AMP"
               },
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Getting Started",
-                "permalink": "/docs/start_here"
+                "permalink": "/docs/about_amp"
               },
               "next": {
                 "title": "Resolve Search Console Errors",
@@ -363,34 +386,11 @@
               "sidebar": "someSidebar",
               "previous": {
                 "title": "About AMP",
-                "permalink": "/docs/about_amp"
+                "permalink": "/docs/about_amp_original"
               },
               "next": {
                 "title": "Resolve AMP Inadequate",
                 "permalink": "/docs/resolve_inadequate"
-              }
-            },
-            {
-              "unversionedId": "start_here",
-              "id": "start_here",
-              "isDocsHomePage": false,
-              "title": "Getting Started",
-              "description": "#### Watch: Approve multiple AMP pages, manage 3rd party elements (3 mins)",
-              "source": "@site/docs/Getting_Started.md",
-              "sourceDirName": ".",
-              "slug": "/start_here",
-              "permalink": "/docs/start_here",
-              "version": "current",
-              "sidebar_label": "Getting Started",
-              "frontMatter": {
-                "id": "start_here",
-                "title": "Getting Started",
-                "sidebar_label": "Getting Started"
-              },
-              "sidebar": "someSidebar",
-              "next": {
-                "title": "About AMP",
-                "permalink": "/docs/about_amp"
               }
             },
             {

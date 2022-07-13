@@ -54,12 +54,17 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','6bc'),
+  component: ComponentCreator('/docs','402'),
   
   routes: [
 {
   path: '/docs/about_amp',
   component: ComponentCreator('/docs/about_amp','daf'),
+  exact: true,
+},
+{
+  path: '/docs/about_amp_original',
+  component: ComponentCreator('/docs/about_amp_original','60f'),
   exact: true,
 },
 {
@@ -110,11 +115,6 @@ export default [
 {
   path: '/docs/search_console',
   component: ComponentCreator('/docs/search_console','8fc'),
-  exact: true,
-},
-{
-  path: '/docs/start_here',
-  component: ComponentCreator('/docs/start_here','64d'),
   exact: true,
 },
 {
