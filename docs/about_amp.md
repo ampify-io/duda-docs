@@ -18,7 +18,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ** → [Hide an element on AMP page](/docs/resolve_inadequate#ways-to-resolve-amp-inadequate#:~:text=Hide%20elements%20only%20from%20the%20AMP%20version)**
 
  #### Common Questions:
- * My page status is "<font color="#eb4034">AMP Inadequate</font>". Why? [Cick here](/docs/App#amp-inadequate)
+ * My page status is "<font color="#eb4034">AMP Inadequate</font>". Why? [Click here](/docs/App#amp-inadequate)
  * Google Search Console sent me a warning about my AMP page. [Click here](/docs/search_console)
 
 
