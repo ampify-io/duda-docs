@@ -139,7 +139,7 @@ Site header is identical to the source. For headers which change on scroll:
   
   ### Media Slider
 <img className="higher" width='50px' src={useBaseUrl('media_slider.png')} />
-  * In AMP pages, Madia Slider's fade in and out transition is not supported. Instead, transition animation is applied.
+  * In AMP pages, Madia Slider's fade in and out transition is not supported. Sliders with fade in/out can't be converted to AMP (they will show as a static image).
   * Autoplay is turned on by default. To disable, add an HTML attribute to the element (<a href="https://support.duda.co/hc/en-us/articles/360061888273-Using-HTML-and-Custom-Code#:~:text=To%20edit%20the%20code%20of,the%20code%20you%20are%20editing." target="_blank">via edit CSS/HTML option</a> ): "data-amp-autoplay='false'".
 
 ### Multi-Location
