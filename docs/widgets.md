@@ -136,6 +136,12 @@ Site header is identical to the source. For headers which change on scroll:
   * In AMP pages, the map is a Google Map, instead of the HTML version’s Mapbox.
   * Location name tooltip (named ‘popup’ in the editor) is replace with a fixed tile at the corner of the map.
   * AMP maps do not support map layouts which differ from the default.
+  
+  ### Media Slider
+<img className="higher" width='50px' src={useBaseUrl('media_slider.png')} />
+  * In AMP pages, Madia Slider's fade in and out transition is not supported. Instead, transition animation is applied.
+  * Autoplay is turned on by default. To disable, add an HTML attribute to the element (<a href="https://support.duda.co/hc/en-us/articles/360061888273-Using-HTML-and-Custom-Code#:~:text=To%20edit%20the%20code%20of,the%20code%20you%20are%20editing." target="_blank">via edit CSS/HTML option</a> ): "data-amp-autoplay='false'".
+
 ### Multi-Location
 <img className="higher" width='50px' src={useBaseUrl('Multi-Location.png')} />
 
@@ -160,7 +166,7 @@ Site header is identical to the source. For headers which change on scroll:
   * **Animations**: this relates animations set for the appearance of a popup. The supported animations are 'Fade-in' and 'Flush'. Other animation types will be converted to 'Fade-in'.
 ### Row Background Design
   * Image Slider:
-    * In the AMP version, only sliding animation is supported. Other type of animation will be converted to the sliding motion.
+    * In the AMP version, only sliding animation is supported. Other types of animation will be converted to the sliding motion.
     * The 'tile repeat' and 'tile no-repeat' layouts will be shown as 'cover' in the AMP version.
     * All other aspects of the row background slider are identical.
 ### RSS Feed
