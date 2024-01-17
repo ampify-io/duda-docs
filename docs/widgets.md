@@ -236,3 +236,8 @@ Accordion tabs open in a slightly smoother manner compared to the source.
 ### Typeform
 
   * Typeform is supported in AMP. Forms that are triggered by buttons will be opened in a full screen, like they normally do. Forms that are in an iframe will continue to be visible inside that iframe.
+
+### Google Reviews by Elfsight
+
+  * Google Reviews by Elfsight is supported in AMP. Carousel height is fixed and set to the height of the heighest slide.
+  
